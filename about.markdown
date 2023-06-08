@@ -13,7 +13,7 @@ sidebar_link: true
 
 <p>
 
-   I’m an A.I. researcher at Setlabs Research GmBh.
+   I’m an A.I. researcher at Setlabs Research GmbH.
 
     
 
