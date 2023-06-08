@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 sidebar_link: true
 ---
-<img style="float: right;" src="about.assets/reading.png" width="200px">
+<img style="float: right;" src="about.assets/reading.jpg" width="200px">
 
 <!-- Update index.html as well -->
 
