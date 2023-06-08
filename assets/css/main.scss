@@ -1,0 +1,10 @@
+---
+# Use a comment to ensure Jekyll reads the file to be transformed into CSS later
+# only main files contain this front matter, not partials.
+# https://github.com/fongandrew/hydeout/blob/master/_sass/hydeout/_variables.scss
+---
+
+$sidebar-bg-color: #00008b;
+$link-color: #12b6df;
+$sidebar-sticky: true;
+@import "hydeout";
