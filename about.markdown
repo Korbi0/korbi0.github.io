@@ -6,7 +6,7 @@ sidebar_link: true
 ---
 <figure style="float: right; width: 200px;">
     <img src="about.assets/reading.jpg" alt="Image description" style="width: 100%;">
-    <figcaption>📸: Sowmya Theegalapalli <3</figcaption>
+    <figcaption>📸: <a href="https://www.instagram.com/sowm.2.0/">Sowmya Theegalapalli</a> <3</figcaption>
 </figure>
 
 <!-- Update index.html as well -->
