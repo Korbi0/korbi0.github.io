@@ -5,7 +5,7 @@ permalink: /CV/
 sidebar_link: true
 ---
 
-- Education:
+- Education
     - **Munich Center for Mathematical Philosophy (at LMU Munich)**
         - MA (Final Grade 1.05) Logic and Philosophy of Science, 2023
         - Thesis: "Prediction Markets and Democracy"
@@ -25,13 +25,13 @@ sidebar_link: true
         - Thesis: "Wittgenstein und Heidegger: Zur Fundierung des Sprechens"
         - Supervisor: Dominik Finkelde
 
-- Publications:
+- Publications
     -  **Korbinian Friedl**, Georgios Rizos, Lukas Stappen, Madina Hasan, Lucia Specia, Thomas Hain and Björn W. Schuller. [*Uncertainty Aware Review Hallucination for Science Article Classification*](https://aclanthology.org/2021.findings-acl.443/). Findings of ACL: ACL-IJCNLP 2021.
 
-- Teaching Experience:
-    - Instructor:
+- Teaching Experience
+    - Instructor
         - Alva Noë's theory of art in his book "Strange Tools", Lekürekurs at LMU Munich, Fall 2020
-    - Tutor:
+    - Tutor
         - Linear Algebra I for Mathematicians, LMU Munich, Fall 2020, Fall 2021
         - Linear Algebra II for Mathematicians, LMU Munich, Summer 2021, Summer 2022
 
