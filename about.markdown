@@ -10,7 +10,6 @@ sidebar_link: true
 </figure>
 
 
-
 I’m an A.I. researcher at SETlabs Research GmbH.
 
 I studied Philosophy, Mathematics and Artificial Intelligence in Munich, Berlin, Berkeley and London.
