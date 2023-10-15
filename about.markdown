@@ -9,9 +9,9 @@ sidebar_link: true
     <figcaption>📸: <a href="https://www.instagram.com/sowm.2.0/">Sowmya Theegalapalli</a></figcaption>
 </figure>
 
-I'm starting a PhD in Philosophy at LSE in the fall of 2023.
+I am a PhD Student in Philosophy at the London School of Economics and Political Science.
 
-Previously, I worked as an A.I. researcher at SETlabs Research GmbH,
+Before starting my PhD in the fall of 2023, I worked as an A.I. researcher at SETlabs Research GmbH,
 where my occupation was to improve deep learning based Camera-LiDAr sensor
 fusion for autonomously driving trains in a manner that is mindful
 of explainability.
@@ -24,6 +24,10 @@ I am interested in a range of areas within Philosophy, and have in the past
 enjoyed reading and writing on Phenomenology, Aesthetics, Virtue Ethics, 
 Wittgenstein and Nietzsche.
 In my most recent MA at the Munich Center for Mathematical Philosophy,
-I focussed on modal and non-classical logic(s) as well as social choice
+I focused on modal and non-classical logic(s) as well as social choice
 and behavioral judgement aggregation.
+
+In my PhD, I am working on Social Epistemology, Social Choice and Political Philosophy.
+In particular, I am interested in the role prediction markets can play in areas
+of cooperative investigation and decision making.
 

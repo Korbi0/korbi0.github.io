@@ -35,7 +35,7 @@ sidebar_link: true
 
 ## Teaching
 #### Instructor
-- Alva Noë's theory of art in his book "Strange Tools", Lekürekurs at LMU Munich, Fall 2020
+- Alva Noë's theory of art in his book "Strange Tools", Lektürekurs at LMU Munich, Fall 2020
 
 #### Tutor
 - Linear Algebra I for Mathematicians, LMU Munich, Fall 2020, Fall 2021
