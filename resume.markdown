@@ -36,13 +36,15 @@ sidebar_link: true
 -  Korbinian Friedl, Georgios Rizos, Lukas Stappen, Madina Hasan, Lucia Specia, Thomas Hain and Björn W. Schuller. [*Uncertainty Aware Review Hallucination for Science Article Classification*](https://aclanthology.org/2021.findings-acl.443/). Findings of ACL: ACL-IJCNLP 2021.
 
 ## Teaching
-#### Instructor
-- Alva Noë's theory of art in his book "Strange Tools", Lektürekurs at LMU Munich, Fall 2020
-
-#### Tutor
-- Linear Algebra I for Mathematicians, LMU Munich, Fall 2020, Fall 2021
-- Linear Algebra II for Mathematicians, LMU Munich, Summer 2021, Summer 2022
+See [here]({% link Teaching.md %})
 
 
+---
+
+### Grading Systems:
+- In Germany, grades are awarded on a scale from 1 to 5, with 1.0 being the best
+achieveable grade The degrees I earned at Munich School of Philosophy, Humboldt University Berlin and the Munich Center for Mathematical Philosophy were graded on this scale.
+- At Imperial College, degrees were classified in one of the three categories "Pass", "Merit", "Distinction", with Distinction being the best achievable classification.
+- At UC Berkeley, the best achievable GPA was 4.0
 
 <!-- <object data="CV_website.pdf" width="100%" height="1000" type='application/pdf'/> -->
