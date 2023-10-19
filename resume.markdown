@@ -44,7 +44,7 @@ See [here]({% link teaching.md %}).
 ### Grading Systems:
 - In Germany, grades are awarded on a scale from 1 to 5, with 1.0 being the best
 achieveable grade. The degrees I earned at Munich School of Philosophy, Humboldt University Berlin and the Munich Center for Mathematical Philosophy were graded on this scale.
-- At Imperial College, degrees were classified in one of the three categories "Pass", "Merit", "Distinction", with Distinction being the best achievable classification.
+- At Imperial College, degrees were classified as "Pass", "Merit" or "Distinction", with Distinction being the highest achievable classification.
 - At UC Berkeley, the best achievable GPA was 4.0
 
 <!-- <object data="CV_website.pdf" width="100%" height="1000" type='application/pdf'/> -->
