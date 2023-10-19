@@ -12,7 +12,7 @@ sidebar_link: true
 I am a PhD Student in Philosophy at the London School of Economics and Political Science.
 
 Before starting my PhD in the fall of 2023, I worked as an A.I. researcher at SETlabs Research GmbH,
-where my occupation was to improve deep learning based Camera-LiDAr sensor
+where my occupation was to improve deep learning based Camera-LiDAR sensor
 fusion for autonomously driving trains in a manner that is mindful
 of explainability.
 
