@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Uncertainty Aware Review Hallucination"
+title:  "Uncertainty Aware Review Hallucination (Findings of ACL, 2021)"
 date:   2023-06-08 18:25:00 +0200
 categories: Research
 ---
