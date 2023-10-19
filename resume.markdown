@@ -36,7 +36,7 @@ sidebar_link: true
 -  Korbinian Friedl, Georgios Rizos, Lukas Stappen, Madina Hasan, Lucia Specia, Thomas Hain and Björn W. Schuller. [*Uncertainty Aware Review Hallucination for Science Article Classification*](https://aclanthology.org/2021.findings-acl.443/). Findings of ACL: ACL-IJCNLP 2021.
 
 ## Teaching
-See [here]({% link Teaching.md %}).
+See [here]({% link teaching.md %}).
 
 
 ---
