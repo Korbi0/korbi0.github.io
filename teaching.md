@@ -8,6 +8,7 @@ sidebar_link: true
 
 
 ## Teaching Assistant 
+- [LSE PH311 – "Philosophy of Economics"](https://www.lse.ac.uk/resources/calendar2023-2024/courseGuides/PH/2023_PH311.htm), LSE, 2025.
 - [LSE PH222 – "Philosophy and Public Policy"](https://www.lse.ac.uk/resources/calendar2023-2024/courseGuides/PH/2023_PH222.htm), LSE, 2024-25.
 - [LSE PH103 – "The Big Questions: An Introduction to Philosophy"](https://www.lse.ac.uk/resources/calendar2020-2021/courseGuides/PH/2020_PH103.htm), LSE, 2023-24.
 - [Linear Algebra II](https://www.mathematik.uni-muenchen.de/~kpanagio/LA2122.php) for Mathematicians, LMU Munich, Summer 2021, Summer 2022
