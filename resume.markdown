@@ -20,7 +20,7 @@ sidebar_link: true
 
 #### Humboldt University Berlin
 - BSc (Final Grade 1.2) Mathematics, 2019
-- *Berlin Mathematical Society Bachelor Price for outstanding theses among Mathematics students in Berlin*
+- *Berlin Mathematical Society Bachelor Prize for outstanding theses among Mathematics students in Berlin*
 - Thesis: ["Pseudocycles and Smooth Intersection Theory"]({% link assets/pdfs/2023-09-04-Pseudocycles_and_Smooth_Intersection_Theory.pdf %})
 - Supervisor: [Chris Wendl](https://www.mathematik.hu-berlin.de/~wendl/)
 
