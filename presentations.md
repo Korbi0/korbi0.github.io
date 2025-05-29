@@ -9,4 +9,4 @@ sidebar_link: false
 [Judgment Aggregation: Prediction Market or Majority Vote?]({% link assets/presentations/epsa_presentation/epsapres.html %})
 
 ## IVC
-[Verificationism, Probability, Thick Ethical Concepts]({% link assets/presentations/ivc_presentation/ivcpresentation.html})
+[Verificationism, Probability, Thick Ethical Concepts]({% link assets/presentations/ivc_presentation/ivcpresentation.html %})
