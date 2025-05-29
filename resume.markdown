@@ -10,19 +10,19 @@ sidebar_link: true
 #### Munich Center for Mathematical Philosophy (at LMU Munich)
 - MA (Final Grade 1.05) Logic and Philosophy of Science, 2023
 - Thesis: "Prediction Markets and Democracy"
-- Supervisor: Christian List
+- Supervisor: [Christian List](http://christianlist.net)
 
 #### Imperial College London
 - MSc (Distinction) Artificial Intelligence, 2020
 - *Imperial College CPP Award for Academic Excellence, awarded to the student with the highest exam marks in their MSc Artificial Intelligence cohort*
 - Thesis: ["Machine Support for Peer Reviewing Using Review Hallucination in the Presence of Soft Labels"](https://aclanthology.org/2021.findings-acl.443/)
-- Supervisor: Björn Schuller
+- Supervisor: [Björn Schuller](http://www.schuller.one)
 
 #### Humboldt University Berlin
 - BSc (Final Grade 1.2) Mathematics, 2019
 - *Berlin Mathematical Society Bachelor Price for outstanding theses among Mathematics students in Berlin*
 - Thesis: ["Pseudocycles and Smooth Intersection Theory"]({% link assets/pdfs/2023-09-04-Pseudocycles_and_Smooth_Intersection_Theory.pdf %})
-- Supervisor: Chris Wendl
+- Supervisor: [Chris Wendl](https://www.mathematik.hu-berlin.de/~wendl/)
 
 #### UC Berkeley
 - Visiting exchange student, 2018-2019 (GPA 3.95)
@@ -30,7 +30,7 @@ sidebar_link: true
 #### Munich School of Philosophy
 - BA (Final grade 1.28) Philosophy, 2016
 - Thesis: "Wittgenstein und Heidegger: Zur Fundierung des Sprechens"
-- Supervisor: Dominik Finkelde
+- Supervisor: [Dominik Finkelde](https://philpeople.org/profiles/dominik-finkelde)
 
 ## Publications
 -  Korbinian Friedl, Georgios Rizos, Lukas Stappen, Madina Hasan, Lucia Specia, Thomas Hain and Björn W. Schuller. [*Uncertainty Aware Review Hallucination for Science Article Classification*](https://aclanthology.org/2021.findings-acl.443/). Findings of ACL: ACL-IJCNLP 2021.
@@ -47,4 +47,3 @@ achieveable grade. The degrees I earned at Munich School of Philosophy, Humboldt
 - At Imperial College, degrees were classified as "Pass", "Merit" or "Distinction", with Distinction being the highest achievable classification.
 - At UC Berkeley, the best achievable GPA was 4.0
 
-<!-- <object data="CV_website.pdf" width="100%" height="1000" type='application/pdf'/> -->
