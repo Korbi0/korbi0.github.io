@@ -17,19 +17,13 @@ typography:
   base: Roboto
   headings: Roboto
 bibliography: references.bib
+toc: true
+toc-depth: 1
 ---
 
 
-## Overview
 
-- The Original Verifiability Criterion and its issues
-- Leitgeb's New Verifiability Criterion
-- The question of probability
-- Inductive Logic
-
----
-
-## Motivation for the Criterion
+# History, Motivation and Issues of the Original Verifiability Criterion
 
 :::: {.columns}
 
@@ -150,7 +144,7 @@ Carnap in *The Unity of Science*:
 --- 
 
 
-## Thick Ethical Concepts
+### Thick Ethical Concepts
 
 :::: {.columns}
 
@@ -158,10 +152,10 @@ Carnap in *The Unity of Science*:
 
 
 
-### Examples
+#### Examples
 - "Considerate", "gentle", "cruel"
 
-### Dual Function
+#### Dual Function
 1. **Descriptive**: Explain and predict behavior
 2. **Evaluative**: Cannot really say something like "Jones is inconsiderate, envious, self-centered and cruel; but he is also a very good person."
 
@@ -179,7 +173,7 @@ Carnap in *The Unity of Science*:
 
 ::: {.column width="70%"}
 
-### Indispensability
+#### Indispensability
 - Essential for adequate description of reality
 - If someone, in their description of someone else, failed to mention that the person is *considerate* or *generous*, they may themselves be criticized as imperceptive or superficial.
 
@@ -193,7 +187,7 @@ Carnap in *The Unity of Science*:
 
 ---
 
-## Leitgeb's promise:
+## Leitgeb's Promise:
 
 :::: {.columns}
 
@@ -212,9 +206,7 @@ Carnap in *The Unity of Science*:
 
 ::::
 
----
-
-## Leitgeb's New Parametric Verifiability Criterion
+# Leitgeb's New Parametric Verifiability Criterion
 
 :::: {.columns}
 
@@ -239,14 +231,14 @@ Where
 
 ---
 
-## Explication of (dis)confirmation and (dis)confirmability
+## Explication of (Dis)confirmation and (Dis)confirmability
 
 - For $A, B \in \mathcal{L}$ and $\mathcal{P}\in Prob(\mathcal{L})$, $A$ (dis)confirms $B$ relative to $P$ iff $P(B\mid A)>P(B)$ (respectively $P(B\mid A)<P(B)$)
 - For $B \in \mathcal{L}$, $\mathcal{S}_O \subseteq \mathcal{L}$, $\mathcal{P}\subseteq Prob(\mathcal{L})$, $B$ is (dis)confirmable by members of $\mathcal{S}_O$ relative to $\mathcal{P}$ iff there are $A\in\mathcal{S}_O$, $P\in\mathcal{P}$, such that $A$ (dis)confirms $B$ relative to $P$.
 
 ---
 
-## Semantic motivation – why should we think this captures "meaningfulness"?
+## Semantic Motivation – Why Should we Think this Captures "Meaningfulness"?
 
 - Dynamic semantics: Meaning is "context-change potential"
 - Bayesian dynamic semantics: The "context" is a set of probability measures and the "change" is updating via conditionalization.
@@ -307,7 +299,7 @@ Where
 ::::
 
 
-# Question: What does it mean to assign a probability to a sentence?
+# Question: What Does it Mean to Assign a Probability to a Sentence?
 
 - The picture is this: We have a set of sentences whose meaning is not in doubt, $\mathcal{S}_O$ (e.g. empirical sentences). Then a set of sentences $\mathcal{S}_N$ whose meaningfulness is in doubt.
 - If all of the sentences in $\mathcal{S}_N$ can be (dis)confirmed by sentences in $\mathcal{S}_O$, then they are meaningful.
@@ -329,7 +321,7 @@ Where
 
 ---
 
-### So: Let's be subjective Bayesians then?
+## So: Let's be Subjective Bayesians then?
 
 - Assigning a probability $c$ to $\varphi$ means being willing to bet on $\varphi$ at odds $c:1-c$
   - But to enter into a bet, I need to know how the bet is going to be resolved
@@ -340,7 +332,7 @@ Where
 
 ---
 
-### Can we be Frequentists?
+## Can we be Frequentists?
 
 - Frequentism won't help because
 	- a) cannot serve as a guide in life
@@ -352,11 +344,11 @@ We need a concept of probability which can serve as a guide in life (to preserve
 
 # Inductive Logic
 
-## Relationship with subjective Bayesian degree-of belief
+## Relationship with Subjective Bayesian Degree-of-belief
 - "From Carnap's point of view, a scientist's personal degree-of belief function would be rationally reconstructed as resulting from *updating* a framework's confirmation measure by evidence"
 
 
-## Formal statement
+## Formal Statement
 
 - Let $L_n$ be a first-order language consisting of a set of (unary, for now) prediates, individual variables and $n$ individual constants $a_1, \ldots, a_n$ (which are assumed to always denote distinct objects; i.e. if $i \neq j$, then $\vDash a_i \neq a_j$.) 
 - Let a *state description* be the conjunction over a consistent and complete set whose members are either atomic sentences or negations of atomic sentences.
