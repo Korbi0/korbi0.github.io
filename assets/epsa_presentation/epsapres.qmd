@@ -1,0 +1,235 @@
+---
+title: "Judgment Aggregation: Prediction Market or Majority Vote?"
+author: "Korbinian Friedl"
+format:
+  revealjs:
+    toc: false
+    toc-depth: 3
+    typst:
+      logo:
+        width: 1in
+        location: right-top
+        padding-right: 0.5in
+        padding-top: 0.25in
+        alt: Alternate alternate text
+theme: simple 
+bibliography: references.bib
+typography:
+  fonts:
+    - family: Roboto
+      source: google
+  base: Roboto
+  headings: Roboto
+logo:
+  large: LSE_Logo.svg.png
+  small: LSE_small.png
+  medium: LSE_medium.png
+---
+
+
+# Knowing the Future
+
+-   It sure would be nice to know the future some times.
+-   I mean not just because it would be interesting, but also because it could be really helpful for taking appropriate precautions or making the necessary prepartions.
+
+# Example: Horse Bad?
+![[@tiepolo_trojan_horse_1760]](trojan_horse.jpg)
+
+
+## Opinions Are Divided
+
+::::: columns
+::: {.column width="50%"}
+![](cassandra_gpt_new.png)
+:::
+
+::: {.column width="50%"}
+![](Thymoethes_gpt.png)
+:::
+:::::
+
+# In this Talk
+::: fragment
+- Will present theorems to the effect that (if modelled as exchange economies), prediction markets will exhibit the same advantages which the CJT certifies for majority voting
+:::
+::: fragment
+- In this sense, they are no less (and perhaps more) effective at tapping into individuals' rationality and expertise for the purpose of getting accurate predictions
+:::
+
+## In this Talk
+- I will end, however, by briefly discussing another result, which suggests a nuanced relationship of markets and individuals' rationality: The perspective of the "No Trade Theorem", which suggests that some irrationality is required for the smooth functioning of Prediction Markets
+
+
+# Outline
+
+-   What is the CJT
+-   Prediction Markets as Judgment Aggregators 
+-   Modelling Prediction Markets as Exchange Economies
+-   Jury Theorems for Prediction Markets
+-   The Perspective of the "No Trade Theorem"
+
+# What is the CJT and What Are Prediction Markets
+
+(Sadly, the fun part of the talk is over now, and we are now entering the drudgery of some very formal results)
+
+## General Setting
+
+We have a proposition $q$
+
+whose truth value $\varphi(q)\in\{0,1\}$ 
+
+is (as of yet) unknown. We have a population of $n$ agents
+
+ (for simplicity, assume $n$ is odd), 
+ 
+ whose beliefs about $q$ we denote with $B_1(q), \ldots, B_n(q)$. 
+ 
+ Let $V(q) \in \{0,1\}$ denote the result of a majority vote taken among the agents.
+
+## Assumptions Required for the CJT
+::: fragment
+-   **Competence**: Each agent has a better-than-chance probability $r>\frac{1}{2}$ of getting it right --- $\mathbb{P}(B_i(q) = x \mid \varphi(q)=x)=r>\frac{1}{2}$.
+:::
+::: fragment
+-   **Independence**: Agents' beliefs are stochastically (mutually) independent, conditional on the state of the world.
+:::
+::: fragment
+-   **Sincerity**: Every agent casts their vote in accordance with what they truly believe. I.e. $V(q)=1$ iff $\# \{i \mid B_i(q)=1 \} > \# \{i \mid B_i(q) = 0 \}$.
+:::
+
+## Theorem 1 (Condorcet Jury Theorem)
+
+For each possible truth value of $q$, $x \in \{0, 1\}$, the probability of a correct majority vote $\mathbb{P}(V(q)=x \mid \varphi(q)=x)$
+
+-   is greater than each individual's probability of having the correct belief $\mathbb{P}(B_i(q)=x \mid \varphi(q)=x)=r$ ("non-asymptotic result"), and
+-   converges to 1 as the number of participating individuals increases ("asymptotic result").
+
+
+## Prediction Markets
+
+- A prediction market on $q$ is a market trading bets on $q$ and $\neg q$. 
+  - Let $b_q$ be an asset that pays out €1 if $q$ and €0 if $\neg q$ (and vice versa). 
+  - Let $p_q$ and $p_{\neg q}$ denote the equilibrium prices of these assets.
+
+## Prediction Markets as Judgment Aggregators
+
+- Let $M(q) = \chi(p_q > p_{\neg q})$ denote "the market's judgment": It affirms $q$ iff the market price of a bet on $q$ is higher than the market price of a bet on $\neg q$.
+
+## Example
+
+![[@Will2025Be]](kalshi_hottest_year.png){width=80%}
+
+# Modelling Prediction Markets as Exchange Economies
+
+## Definition 1 (Exchange Economy)
+
+An **exchange economy** is an economy in which there are $k$ commodities and $n$ consumers $\{1, \ldots, n\}$, where each consumer $i$ is described by
+
+-   a utility function $U^i\left(x^i_1, \ldots, x^i_k\right)$, assigning a non-negative real number to each possible consumption bundle.
+-   an initial endowment of commodities $\varpi^i = \left(\varpi^i_1, \ldots, \varpi^i_k\right) \in \mathbb{R}_{\geq 0}^k$.
+
+## Definition 2 (Consumption Bundle)
+
+A **consumption bundle** for consumer $i$ is a tuple of quantities of the commodities in the economy, $x^i=\left(x^i_1, \ldots, x^i_k\right) \in \mathbb{R}^k_{\geq 0}$.
+
+## Definition 3 (Allocation in an Exchange Economy)
+
+An **allocation** $x=\left(x^i, \ldots, x^n\right) \in \left(\mathbb{R}^k_{\geq 0}\right)^n$ assigns a consumption bundle to each consumer.
+
+## Definition 4 (Feasibility of an Allocation)
+
+An allocation $x$ in an exchange economy with initial endowments $\varpi^1, \ldots, \varpi^n$ is **feasible** if $$
+    \forall l \in \{1, \ldots, k\}: \sum_{i=1}^n x^i_l \leq \sum_{i=1}^n \varpi^i_l
+$$
+
+## Definition 5 (Walrasian Equilibrium)
+
+A **Walrasian Equilibrium** in an exchange economy is a pair $\left(\bar{x}, \bar{p}\right)$, consisting of an allocation $\bar{x} = \left(\bar{x}^1, \ldots, \bar{x}^n\right)$ and a price vector $\bar{p} = \left(\bar{p}_1, \ldots, \bar{p}_k\right)$ such that:
+
+-   $\bar{x}^i$ maximizes $U^i\left(x^j\right)$ subject to $\bar{p}\cdot \bar{x}^i \leq \bar{p} \cdot \varpi^i$
+-   $\bar{x}$ is feasible.
+
+# Jury Theorems for Prediction Markets
+
+## Assumptions Required
+
+::: fragment
+-   **Competence**
+:::
+
+::: fragment
+-   **Independence**
+:::
+
+::: fragment
+-   ~~**Sincerity**~~
+:::
+
+::: fragment
+-   **Rational Self-Interest**: Agent $i$ purchases bundle $\bar{x}$ iff $\bar{x}$ maximizes $U^i$ among all the bundles that $i$ can afford.
+:::
+
+## Further Modelling Assumptions
+
+::: fragment
+-   **Utility function**: $U^i(x^i_q, x^i_{\neg q})=B_i(q)x^i_q + (1 - B^i(q))x^i_{\neg q}$
+:::
+
+::: fragment
+-   **Endowment**: Let every agent initially be endowed with one $b_q$ and one $b_{\neg q}$ (i.e. one euro).
+:::
+
+# Jury Theorems for Prediction Markets
+
+
+## Theorem 2 (PMJT for Agents with Binary Beliefs)
+Under the above assumptions:
+
+For each possible truth value of $q$, $x \in \{0, 1\}$, the probability of a correct market judgment $\mathbb{P}(M(q)=x \mid \varphi(q)=x)$
+
+-   is greater than each individual's probability of having the correct belief $\mathbb{P}(B_i(q)=x \mid \varphi(q)=x)=r$ ("non-asymptotic result"), and
+-   converges to 1 as the number of participating individuals increases ("asymptotic result").
+
+
+## Theorem 3 (PMJT for Agents with Degrees of Belief)
+
+::: fragment
+If we let $B_i(q)$ take values in the interval $[0,1]$ instead of just in the set $\{0,1\}$, but keep all the other assumptions the same, then:
+
+A Walrasian equilibrium exists, and the market affirms $q$ iff the *median credence* is higher than 0.5, and $\neg q$ otherwise. That is, the market affirms the correct proposition iff the median credence is on the correct side of the 0.5 mark.
+::: 
+
+## Can We Recover the Condorcet Properties in this Case?
+
+::: fragment
+Question: How to translate the **competence** assumption?
+:::
+
+::: fragment
+We recover both properties if we assume what [@wollesen] calls "minimal fidelity of credences": Agents' credences are drawn from a distribution on $[0,1]$ whose *median* is on the correct side of the 0.5 mark.
+:::
+
+## Corollary 4 (Condorcet-Like Property for PM, Degrees of Belief)
+
+If minimal fidelity of credences is satisfied:
+
+For each possible truth value of $q$, $x \in \{0, 1\}$, the probability of a correct market judgment $\mathbb{P}(M(q)=x \mid \varphi(q)=x)$
+
+-  is greater than each individual agent’s probability of having a credence on the correct side of 0.5, $\mathbb{P}(\mid B_i(q) - x\mid < 0.5 \mid \varphi(q)=x)$ and 
+- converges to 1 as the number of agents increases.
+
+# The Perspective of the "No Trade Theorem"
+
+- Consider an economy like the one we have been discussing. But assume that agents are risk-averse, have common knowledge of each other’s rationality and of this fact, non-extreme credences, and only accept trades that in (their) expectation don’t decrease their utility. Then no trade takes place.
+
+# Conclusion
+::: fragment
+- Prediction Markets have similar positive properties to majority voting
+:::
+::: fragment
+- Unlike majority voting, they don't have to rely on agents' sincerity
+:::
+::: fragment
+- But they have to be paid for in the following sense: Someone needs to enter into not fully rational trades
+:::
+# References
