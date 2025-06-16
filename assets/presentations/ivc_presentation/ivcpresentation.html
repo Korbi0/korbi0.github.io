@@ -144,6 +144,7 @@
       margin-right: 0; 
     }
   </style>
+  <link rel="icon" type="image/vnd.icon" href="carnap_favicon.ico">
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -323,10 +324,15 @@ Korbinian Friedl
 </section>
 <section id="explication-of-disconfirmation-and-disconfirmability" class="slide level2">
 <h2>Explication of (Dis)confirmation and (Dis)confirmability</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
 <ul>
 <li>For <span class="math inline">\(A, B \in \mathcal{L}\)</span> and <span class="math inline">\(\mathcal{P}\in Prob(\mathcal{L})\)</span>, <span class="math inline">\(A\)</span> (dis)confirms <span class="math inline">\(B\)</span> relative to <span class="math inline">\(P\)</span> iff <span class="math inline">\(P(B\mid A)&gt;P(B)\)</span> (respectively <span class="math inline">\(P(B\mid A)&lt;P(B)\)</span>)</li>
 <li>For <span class="math inline">\(B \in \mathcal{L}\)</span>, <span class="math inline">\(\mathcal{S}_O \subseteq \mathcal{L}\)</span>, <span class="math inline">\(\mathcal{P}\subseteq Prob(\mathcal{L})\)</span>, <span class="math inline">\(B\)</span> is (dis)confirmable by members of <span class="math inline">\(\mathcal{S}_O\)</span> relative to <span class="math inline">\(\mathcal{P}\)</span> iff there are <span class="math inline">\(A\in\mathcal{S}_O\)</span>, <span class="math inline">\(P\in\mathcal{P}\)</span>, such that <span class="math inline">\(A\)</span> (dis)confirms <span class="math inline">\(B\)</span> relative to <span class="math inline">\(P\)</span>.</li>
 </ul>
+</div><div class="column" style="width:35%;">
+<p><img data-src="images/leitgeb_3.jpeg" style="width:100.0%"></p>
+</div></div>
 </section>
 <section id="semantic-motivation-why-should-we-think-this-captures-meaningfulness" class="slide level2">
 <h2>Semantic Motivation – Why Should we Think this Captures “Meaningfulness”?</h2>
@@ -375,7 +381,7 @@ Korbinian Friedl
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="images/bradley.png" style="width:100.0%"></p>
-<figcaption>Not Richard Bradley</figcaption>
+<figcaption>F.H. Bradley</figcaption>
 </figure>
 </div>
 </div></div>
@@ -400,7 +406,7 @@ Korbinian Friedl
 </ul></li>
 <li class="fragment">In the pragmatist spirit Leitgeb seems to be going for, we can say:
 <ul>
-<li class="fragment">The better our concept of probability can serve as a guide in life, the stroner the semantic claim of the principle.</li>
+<li class="fragment">The better our concept of probability can serve as a guide in life <span class="citation" data-cites="carnapProbabilityGuideLife1947">(<a href="#/references" role="doc-biblioref" onclick="">Carnap 1947</a>)</span>, the stronger the semantic claim of the principle.</li>
 </ul></li>
 </ul>
 </section>
@@ -428,10 +434,10 @@ Korbinian Friedl
 <li><ol start="2" type="a">
 <li>likewise seems to presuppose meaningfulness in the OVC sense</li>
 </ol></li>
-<li>(Also note that it would be directly contrary to Carnap who explicitly rejected a proposal by Reichenbach (Über Induktion und Wahrscheinlichkeit, p.&nbsp;271 ff.) to equate confirmation with the limit of relative frequency (Testabilty and Meaning, p.&nbsp;427))</li>
+<li>(Also note that it would be directly contrary to <span class="citation" data-cites="carnap1936testability">Carnap (<a href="#/references" role="doc-biblioref" onclick="">1936, 427</a>)</span> who explicitly rejected a proposal by <span class="citation" data-cites="reichenbach1935induktion">Reichenbach (<a href="#/references" role="doc-biblioref" onclick="">1935, 271</a> ff.)</span> to equate confirmation with the limit of relative frequency.</li>
 </ul></li>
 </ul>
-<p>We need a concept of probability which can serve as a guide in life (to preserve the pragmatist appeal of Leitgeb’s semantics)—i.e.&nbsp;can be called probability<span class="math inline">\(_1\)</span> in Carnap’s diction—and can make sense of assigning probability in a purely formal way, independent of the meaning of the elements of <span class="math inline">\(\mathcal{L}\)</span></p>
+<p>We need a concept of probability which can serve as a guide in life (to preserve the pragmatist appeal of Leitgeb’s semantics)—i.e.&nbsp;can be called probability<span class="math inline">\(_1\)</span> in Carnap’s <span class="citation" data-cites="carnapTwoConceptsProbability1945">(<a href="#/references" role="doc-biblioref" onclick="">1945</a>)</span> diction—and can make sense of assigning probability in a purely formal way, independent of the meaning of the elements of <span class="math inline">\(\mathcal{L}\)</span></p>
 </section></section>
 <section>
 <section id="inductive-logic" class="title-slide slide level1 center">
@@ -453,11 +459,11 @@ Korbinian Friedl
 <li>For example, in a language with predicate <span class="math inline">\(B\)</span> and constants <span class="math inline">\(a_1, a_2\)</span>, some state descriptions would be</li>
 </ul>
 <ol type="1">
-<li><span class="math inline">\(\bigwedge\{B(a_), \neg B(a_2)\}\)</span>,</li>
 <li><span class="math inline">\(\bigwedge\{B(a_1), \neg B(a_2)\}\)</span>,</li>
+<li><span class="math inline">\(\bigwedge\{\neg B(a_1), B(a_2)\}\)</span>,</li>
 <li><span class="math inline">\(\bigwedge\{\neg B(a_1), \neg B(a_2)\}\)</span></li>
 </ol></li>
-<li>Call state two state descriptions <em>isomorphic</em> if one can be transformed into the other by taking any <span class="math inline">\(\sigma \in S_n\)</span> and applying it to all the indices of the constants in the set.
+<li>Call two state descriptions <em>isomorphic</em> if one can be transformed into the other by taking any <span class="math inline">\(\sigma \in S_n\)</span> and applying it to all the indices of the constants in the set.
 <ul>
 <li>E.g. the first of the above state descriptions can be transformed into the second by switching <span class="math inline">\(1\)</span> and <span class="math inline">\(2\)</span> in the indices. So they are isomorphic.</li>
 <li>But neither of them is isomorphic to the third</li>
@@ -515,11 +521,88 @@ Korbinian Friedl
 </section>
 <section id="tec-and-aesthetic-judgments-1" class="slide level2">
 <h2>TEC and Aesthetic Judgments</h2>
+<div class="columns">
+<div class="column" style="width:65%;">
 <ul>
-<li>Judgments containing TEC share some similarities with empirical, and some with aesthetic judgments</li>
+<li>Judgments containing TEC share some similarities with empirical, and some with aesthetic judgments<sup>1</sup></li>
 <li>At least if we follow <span class="citation" data-cites="mcdowell1981noncognitivism">(<a href="#/references" role="doc-biblioref" onclick="">McDowell 1981</a>)</span> in rejecting <em>Descriptive Equivalence</em>:</li>
-<li>“<em>Descriptive Equivalence</em>: For every thick term or concept, someone has or could acquire an independently intelligible purely non-evaluative description with the same extension.” <span class="citation" data-cites="sep-thick-ethical-concepts">(<a href="#/references" role="doc-biblioref" onclick="">Väyrynen 2025</a>)</span></li>
-<li>Can Leitgeb’s NVC accommodate this intermediate position?</li>
+</ul>
+<blockquote>
+<p><em>Descriptive Equivalence</em>: For every thick term or concept, someone has or could acquire an independently intelligible purely non-evaluative description with the same extension. <span class="citation" data-cites="sep-thick-ethical-concepts">(<a href="#/references" role="doc-biblioref" onclick="">Väyrynen 2025</a>)</span></p>
+</blockquote>
+<ul>
+<li>How does this work on Leitgeb’s NVC?</li>
+</ul>
+</div><div class="column" style="width:35%;">
+<p><img data-src="images/mcdowell.jpeg" style="width:100.0%"></p>
+</div></div>
+<aside><ol class="aside-footnotes"><li id="fn1"><p>Following <span class="citation" data-cites="mcdowell1981noncognitivism">(<a href="#/references" role="doc-biblioref" onclick="">McDowell 1981</a>)</span> on the cognitive basis for application of TEC and <span class="citation" data-cites="cavell2002AestheticProblems">(<a href="#/references" role="doc-biblioref" onclick="">Cavell 2002</a>)</span> on judgments about what we should say.</p></li></ol></aside></section>
+<section id="descriptive-equivalence-in-leitgebs-framework" class="slide level2">
+<h2>Descriptive Equivalence in Leitgeb’s Framework</h2>
+<p>Consider a language <span class="math inline">\(\mathcal{L}\)</span> containing TEC and set of probability measures <span class="math inline">\(\mathcal{P}\)</span>. We can formulate the following versions of <em>descriptive equivalence</em>:</p>
+<ul>
+<li>Strong: For every thick term or concept <span class="math inline">\(T\)</span>, there is a formula <span class="math inline">\(\varphi(x)\)</span> in <span class="math inline">\(\mathcal{L}\)</span> containing only non-evaluative predicates such that for <em>every</em> <span class="math inline">\(P \in \mathcal{P}\)</span>, constant <span class="math inline">\(c\)</span> and sentence <span class="math inline">\(A \in \mathcal{L}\)</span>, <span class="math inline">\(P(T(c) \mid A) = P(\varphi(c) \mid A)\)</span>.</li>
+<li>Weak: For every thick term or concept <span class="math inline">\(T\)</span>, there is a formula <span class="math inline">\(\varphi(x)\)</span> in <span class="math inline">\(\mathcal{L}\)</span> containing only non-evaluative predicates such that for <em>some</em> <span class="math inline">\(P \in \mathcal{P}\)</span>, <span class="math inline">\(P(T(c) \mid \varphi(c)) \neq P(T(c))\)</span>.</li>
+</ul>
+<p>Note: We can reject strong descriptive equivalence and still have NVC assert the meaningfulness of sentences involving TEC relative to purely descriptive sentences: Weak descriptive equivalence is sufficient for this.</p>
+</section>
+<section id="example-slurs" class="slide level2">
+<h2>Example: Slurs</h2>
+<div class="columns">
+<div class="column" style="width:65%;">
+<ul>
+<li>Consider the sentence “Korbinian is a <em>Piefke</em>”
+<ul>
+<li>Has both descriptive and evaluative content—that I am German and that that is detestable.</li>
+</ul></li>
+<li>If our language contains the predicate ‘German’ and if <span class="math inline">\(S_O\)</span> contains the sentences asserting this predicate or its negation of individuals, then such a sentence would be ruled meaningful by NVC on any plausible <span class="math inline">\(\mathcal{P}\)</span>, since learning that someone <em>isn’t</em> German would immediately rule out their being a <em>Piefke</em>.</li>
+<li>(It is less clear whether learning that someone <em>is</em> German would immediately confirm that they <strong>are</strong> a <em>Piefke</em>)</li>
+</ul>
+</div><div class="column" style="width:35%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/piefke.png" style="width:100.0%"></p>
+<figcaption>Does this guy look like a “Piefke” to you? 🥺</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="are-slurs-really-tec-in-the-narrow-sense" class="slide level2">
+<h2>Are slurs really TEC in the narrow sense?</h2>
+<ul>
+<li>Chappell argues that slurs are not amalgams of a neutral description and an evaluative tone, but of a caricature and an evaluative tone (“Piefke” doesn’t ever <em>descriptively</em> match any real German, but only a caricature of a German) <span class="citation" data-cites="chappell2013thin">(<a href="#/references" role="doc-biblioref" onclick="">Chappell 2013</a>)</span>.</li>
+<li>In any case, for paradigm TEC, a definite observation cannot usually (dis)prove sentences involving them.</li>
+</ul>
+</section>
+<section id="sufficient-leitgeb-basis" class="slide level2">
+<h2>Sufficient Leitgeb basis</h2>
+<ul>
+<li>Can we adapt the concept of a “sufficient basis” from <em>Testability and Meaning</em> to frame our question?</li>
+</ul>
+<blockquote>
+<p>A class <span class="math inline">\(C\)</span> of descriptive predicates of a language <span class="math inline">\(\mathcal{L}\)</span> such that every descriptive predicate of <span class="math inline">\(\mathcal{L}\)</span> is reducible to <span class="math inline">\(C\)</span> is called a <em>sufficient basis</em> of <span class="math inline">\(\mathcal{L}\)</span> <span class="citation" data-cites="carnap1936testability">(<a href="#/references" role="doc-biblioref" onclick="">Carnap 1936, 468</a>)</span></p>
+</blockquote>
+<ul>
+<li>Proposed definition:</li>
+</ul>
+<p>If <span class="math inline">\(S_M\)</span> is the set of meaningful sentences in <span class="math inline">\(\mathcal{L}\)</span> and <span class="math inline">\(\mathcal{P}\)</span> a set of probability measures on <span class="math inline">\(\mathcal{L}\)</span>, call <span class="math inline">\(S_B\subseteq \mathcal{L}\)</span> a <em><span class="math inline">\(\mathcal{P}\)</span>-sufficient Leitgeb basis</em> iff <span class="math display">\[NVC(\mathcal{L}, S_B, S_M, \mathcal{P}) = 1\]</span></p>
+</section>
+<section id="sufficient-leitgeb-basis-if-tec-are-meaningful" class="slide level2">
+<h2>Sufficient Leitgeb Basis if TEC are meaningful</h2>
+<p>Hypothesis:</p>
+<ul>
+<li>If <span class="math inline">\(\mathcal{P}\)</span> makes weak descriptive equivalence false, and if <span class="math inline">\(S_M\)</span> contains TEC, then any <span class="math inline">\(\mathcal{P}\)</span>-sufficient Leitgeb basis will have to include some sentences expressing aesthetic judgments.
+<ul>
+<li>N.B.: If we follow McDowell, our <span class="math inline">\(\mathcal{P}\)</span> should definitely make strong descriptive equivalence false. I don’t know yet whether we would be committed to rejecting weak descriptive equivalence as well.</li>
+</ul></li>
+<li>This would be a problem for empiricists (if they want a basis consisting of observation sentences and if Kant is right about aesthetic judgment having mere subjective generality).</li>
+</ul>
+</section>
+<section id="descriptive-equivalence-in-inductive-logic" class="slide level2">
+<h2>Descriptive Equivalence in Inductive Logic</h2>
+<ul>
+<li class="fragment">Will Inductive Logic generally lead to <span class="math inline">\(\mathcal{P}\)</span> which make weak descriptive equivalence false?</li>
+<li class="fragment">My suspicion is yes but I do not know yet.</li>
 </ul>
 </section></section>
 <section id="references" class="title-slide slide level1 smaller scrollable">
@@ -531,6 +614,18 @@ Carnap, Rudolf. 1934. <em>The Unity of Science</em>. Translated by M. Black. Lon
 </div>
 <div id="ref-carnap1936testability" class="csl-entry" role="listitem">
 ———. 1936. <span>“Testability and Meaning.”</span> <em>Philosophy of Science</em> 3 (4): 419–71. <a href="http://www.jstor.org/stable/184400">http://www.jstor.org/stable/184400</a>.
+</div>
+<div id="ref-carnapTwoConceptsProbability1945" class="csl-entry" role="listitem">
+———. 1945. <span>“The <span>Two Concepts</span> of <span>Probability</span>: <span>The Problem</span> of <span>Probability</span>.”</span> <em>Philosophy and Phenomenological Research</em> 5 (4): 513–32. <a href="https://doi.org/10.2307/2102817">https://doi.org/10.2307/2102817</a>.
+</div>
+<div id="ref-carnapProbabilityGuideLife1947" class="csl-entry" role="listitem">
+———. 1947. <span>“Probability as a <span>Guide</span> in <span>Life</span>.”</span> <em>The Journal of Philosophy</em> 44 (6): 141–48. <a href="https://doi.org/10.2307/2020041">https://doi.org/10.2307/2020041</a>.
+</div>
+<div id="ref-cavell2002AestheticProblems" class="csl-entry" role="listitem">
+Cavell, Stanley. 2002. <span>“Aesthetic <span>Problems</span> of <span>Modern Philosophy</span>.”</span> In <em>Must <span>We Mean What We Say</span>?: <span>A Book</span> of <span>Essays</span></em>, 2nd ed., 73–96. Cambridge: Cambridge University Press. <a href="https://doi.org/10.1017/CBO9780511811753.006">https://doi.org/10.1017/CBO9780511811753.006</a>.
+</div>
+<div id="ref-chappell2013thin" class="csl-entry" role="listitem">
+Chappell, Timothy. 2013. <span>“There Are No Thin Concepts.”</span> In <em>Thick Concepts</em>, edited by Simon Kirchin, 182–96. Mind Association Occasional Series. Oxford: Oxford University Press. <a href="http://ukcatalogue.oup.com/product/9780199672349.do">http://ukcatalogue.oup.com/product/9780199672349.do</a>.
 </div>
 <div id="ref-kant1907kritik" class="csl-entry" role="listitem">
 Kant, Immanuel. 1907. <span>“Kritik Der Urteilskraft.”</span> In <em>Kant’s Gesammelte Schriften Herausgegeben von Der Königlich Preußischen Akademie Der Wissenschaften</em>. Vol. 5. Berlin: Königlich Preußische Akademie der Wissenschaften.
@@ -547,11 +642,16 @@ Moore, G. E., and F. P. Ramsey. 1927. <span>“Facts and Propositions.”</span>
 <div id="ref-putnam_collapse_2004" class="csl-entry" role="listitem">
 Putnam, Hilary. 2004. <em>The Collapse of the Fact / Value Dichotomy and Other Essays</em>. 1. paperback ed., 3. print. Cambridge, Massachusetts: Harvard University Press.
 </div>
+<div id="ref-reichenbach1935induktion" class="csl-entry" role="listitem">
+Reichenbach, Hans. 1935. <span>“Über Induktion Und Wahrscheinlichkeit: Bemerkungen Zu Karl Poppers "Logik Der Forschung".”</span> <em>Erkenntnis</em> 5: 267–84. <a href="http://www.jstor.org/stable/20011769">http://www.jstor.org/stable/20011769</a>.
+</div>
 <div id="ref-sep-thick-ethical-concepts" class="csl-entry" role="listitem">
 Väyrynen, Pekka. 2025. <span>“<span>Thick Ethical Concepts</span>.”</span> In <em>The <span>Stanford</span> Encyclopedia of Philosophy</em>, edited by Edward N. Zalta and Uri Nodelman, <span>S</span>pring 2025. <a href="https://plato.stanford.edu/archives/spr2025/entries/thick-ethical-concepts/" class="uri">https://plato.stanford.edu/archives/spr2025/entries/thick-ethical-concepts/</a>; Metaphysics Research Lab, Stanford University.
 </div>
 </div>
 </section>
+
+
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">

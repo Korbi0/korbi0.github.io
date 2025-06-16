@@ -19,6 +19,9 @@ typography:
 bibliography: references.bib
 toc: true
 toc-depth: 1
+include-in-header:
+  - text: |
+      <link rel="icon" type="image/vnd.icon" href="carnap_favicon.ico">
 ---
 
 
@@ -233,9 +236,20 @@ Where
 
 ## Explication of (Dis)confirmation and (Dis)confirmability
 
+:::: {.columns}
+
+::: {.column width="60%"}
+
 - For $A, B \in \mathcal{L}$ and $\mathcal{P}\in Prob(\mathcal{L})$, $A$ (dis)confirms $B$ relative to $P$ iff $P(B\mid A)>P(B)$ (respectively $P(B\mid A)<P(B)$)
 - For $B \in \mathcal{L}$, $\mathcal{S}_O \subseteq \mathcal{L}$, $\mathcal{P}\subseteq Prob(\mathcal{L})$, $B$ is (dis)confirmable by members of $\mathcal{S}_O$ relative to $\mathcal{P}$ iff there are $A\in\mathcal{S}_O$, $P\in\mathcal{P}$, such that $A$ (dis)confirms $B$ relative to $P$.
 
+:::
+
+::: {.column width="35%"}
+![](images/leitgeb_3.jpeg){width=100%}
+:::
+
+::::
 ---
 
 ## Semantic Motivation – Why Should we Think this Captures "Meaningfulness"?
@@ -293,7 +307,7 @@ Where
 :::
 
 ::: {.column width="30%"}
-![Not Richard Bradley](images/bradley.png){width=100%}
+![F.H. Bradley](images/bradley.png){width=100%}
 :::
 
 ::::
@@ -316,7 +330,7 @@ Where
 - Leitgeb contrasts his NVC with Skyrms' Bayesian Verifiability Criterion as a test for *knowability*.
   - Skyrms, he says, develops an *epistemic* criterion; he wants a *semantic* criterion.
 - In the pragmatist spirit Leitgeb seems to be going for, we can say:
-  - The better our concept of probability can serve as a guide in life, the stroner the semantic claim of the principle.
+  - The better our concept of probability can serve as a guide in life [@carnapProbabilityGuideLife1947], the stronger the semantic claim of the principle.
 :::
 
 ---
@@ -337,9 +351,9 @@ Where
 - Frequentism won't help because
 	- a) cannot serve as a guide in life
 	- b) likewise seems to presuppose meaningfulness in the OVC sense
-	- (Also note that it would be directly contrary to Carnap who explicitly rejected a proposal by Reichenbach (Über Induktion und Wahrscheinlichkeit, p. 271 ff.) to equate confirmation with the limit of relative frequency (Testabilty and Meaning, p. 427))
+	- (Also note that it would be directly contrary to @carnap1936testability [p.427] who explicitly rejected a proposal by @reichenbach1935induktion [p. 271 ff.] to equate confirmation with the limit of relative frequency.
 
-We need a concept of probability which can serve as a guide in life (to preserve the pragmatist appeal of Leitgeb's semantics)---i.e. can be called probability$_1$ in Carnap's diction---and can make sense of assigning probability in a purely formal way, independent of the meaning of the elements of $\mathcal{L}$
+We need a concept of probability which can serve as a guide in life (to preserve the pragmatist appeal of Leitgeb's semantics)---i.e. can be called probability$_1$ in Carnap's [-@carnapTwoConceptsProbability1945] diction---and can make sense of assigning probability in a purely formal way, independent of the meaning of the elements of $\mathcal{L}$
 
 
 # Inductive Logic
@@ -353,10 +367,10 @@ We need a concept of probability which can serve as a guide in life (to preserve
 - Let $L_n$ be a first-order language consisting of a set of (unary, for now) prediates, individual variables and $n$ individual constants $a_1, \ldots, a_n$ (which are assumed to always denote distinct objects; i.e. if $i \neq j$, then $\vDash a_i \neq a_j$.) 
 - Let a *state description* be the conjunction over a consistent and complete set whose members are either atomic sentences or negations of atomic sentences.
 	- For example, in a language with predicate $B$ and constants $a_1, a_2$, some state descriptions would be
-    1. $\bigwedge\{B(a_), \neg B(a_2)\}$,
-    2. $\bigwedge\{B(a_1), \neg B(a_2)\}$, 
+    1. $\bigwedge\{B(a_1), \neg B(a_2)\}$,
+    2. $\bigwedge\{\neg B(a_1), B(a_2)\}$, 
     3. $\bigwedge\{\neg B(a_1), \neg B(a_2)\}$
-- Call state two state descriptions *isomorphic* if one can be transformed into the other by taking any $\sigma \in S_n$ and applying it to all the indices of the constants in the set. 
+- Call two state descriptions *isomorphic* if one can be transformed into the other by taking any $\sigma \in S_n$ and applying it to all the indices of the constants in the set. 
 	- E.g. the first of the above state descriptions can be transformed into the second by switching $1$ and $2$ in the indices. So they are isomorphic.
 	- But neither of them is isomorphic to the third
 - This notion of isomorphism defines an equivalence relation $\sim$ on the set of state descriptions
@@ -409,9 +423,90 @@ Assigns probabilities without asking what the statements to which probabilities 
 
 ## TEC and Aesthetic Judgments
 
-- Judgments containing TEC share some similarities with empirical, and some with aesthetic judgments
+:::: {.columns}
+
+::: {.column width="65%"}
+
+- Judgments containing TEC share some similarities with empirical, and some with aesthetic judgments[^note]
 - At least if we follow [@mcdowell1981noncognitivism] in rejecting *Descriptive Equivalence*:
-- "*Descriptive Equivalence*: For every thick term or concept, someone has or could acquire an independently intelligible purely non-evaluative description with the same extension." [@sep-thick-ethical-concepts]
-- Can Leitgeb's NVC accommodate this intermediate position?
+
+>*Descriptive Equivalence*: For every thick term or concept, someone has or could acquire an independently intelligible purely non-evaluative description with the same extension. [@sep-thick-ethical-concepts]
+
+- How does this work on Leitgeb's NVC?
+
+[^note]: Following [@mcdowell1981noncognitivism] on the cognitive basis for application of TEC and [@cavell2002AestheticProblems] on judgments about what we should say.
+
+
+:::
+
+::: {.column width="35%"}
+![](images/mcdowell.jpeg){width=100%}
+:::
+
+::::
+
+---
+
+## Descriptive Equivalence in Leitgeb's Framework
+
+Consider a language $\mathcal{L}$ containing TEC and set of probability measures $\mathcal{P}$. We can formulate the following versions of *descriptive equivalence*:
+
+- Strong: For every thick term or concept $T$, there is a formula $\varphi(x)$ in $\mathcal{L}$ containing only non-evaluative predicates such that for *every* $P \in \mathcal{P}$, constant $c$ and sentence $A \in \mathcal{L}$, $P(T(c) \mid A) = P(\varphi(c) \mid A)$.
+- Weak: For every thick term or concept $T$, there is a formula $\varphi(x)$ in $\mathcal{L}$ containing only non-evaluative predicates such that for *some* $P \in \mathcal{P}$, $P(T(c) \mid \varphi(c)) \neq P(T(c))$.
+
+Note: We can reject strong descriptive equivalence and still have NVC assert the meaningfulness of sentences involving TEC relative to purely descriptive sentences: Weak descriptive equivalence is sufficient for this.
+
+---
+
+## Example: Slurs
+
+:::: {.columns}
+
+::: {.column width="65%"}
+
+- Consider the sentence "Korbinian is a *Piefke*"
+  - Has both descriptive and evaluative content---that I am German and that that is detestable.
+- If our language contains the predicate 'German' and if $S_O$ contains the sentences asserting this predicate or its negation of individuals, then such a sentence would be ruled meaningful by NVC on any plausible $\mathcal{P}$, since learning that someone *isn't* German would immediately rule out their being a *Piefke*.
+- (It is less clear whether learning that someone *is* German would immediately confirm that they **are** a *Piefke*)
+
+:::
+
+::: {.column width="35%"}
+![Does this guy look like a "Piefke" to you? 🥺](images/piefke.png){width=100%}
+:::
+
+::::
+
+---
+
+## Are slurs really TEC in the narrow sense?
+
+- Chappell argues that slurs are not amalgams of a neutral description and an evaluative tone, but of a caricature and an evaluative tone ("Piefke" doesn't ever *descriptively* match any real German, but only a caricature of a German) [@chappell2013thin].
+- In any case, for paradigm TEC, a definite observation cannot usually (dis)prove sentences involving them.
+
+## Sufficient Leitgeb basis
+
+- Can we adapt the concept of a "sufficient basis" from *Testability and Meaning* to frame our question?
+
+> A class $C$ of descriptive predicates of a language $\mathcal{L}$ such that every descriptive predicate of $\mathcal{L}$ is reducible to $C$ is called a *sufficient basis* of $\mathcal{L}$ [@carnap1936testability, p.468]
+
+- Proposed definition:
+
+If $S_M$ is the set of meaningful sentences in $\mathcal{L}$ and $\mathcal{P}$ a set of probability measures on $\mathcal{L}$, call $S_B\subseteq \mathcal{L}$ a *$\mathcal{P}$-sufficient Leitgeb basis* iff $$NVC(\mathcal{L}, S_B, S_M, \mathcal{P}) = 1$$ 
+
+## Sufficient Leitgeb Basis if TEC are meaningful
+
+Hypothesis:
+
+- If $\mathcal{P}$ makes weak descriptive equivalence false, and if $S_M$ contains TEC, then any $\mathcal{P}$-sufficient Leitgeb basis will have to include some sentences expressing aesthetic judgments.
+  - N.B.: If we follow McDowell, our $\mathcal{P}$ should definitely make strong descriptive equivalence false. I don't know yet whether we would be committed to rejecting weak descriptive equivalence as well.
+- This would be a problem for empiricists (if they want a basis consisting of observation sentences and if Kant is right about aesthetic judgment having mere subjective generality).
+
+## Descriptive Equivalence in Inductive Logic
+
+::: {.incremental}
+- Will Inductive Logic generally lead to $\mathcal{P}$ which make weak descriptive equivalence false?
+- My suspicion is yes but I do not know yet.
+:::
 
 # References
