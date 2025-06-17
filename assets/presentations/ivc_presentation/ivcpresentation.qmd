@@ -1,15 +1,16 @@
 ---
-title: "IVC Research Presentation"
-subtitle: "Verifiability, Probability, Thick Ethical Concepts"
+title: "Verifiability, Probability, Thick Ethical Concepts"
+institute: "The London School of Economics and Political Science"
 author: "Korbinian Friedl"
 format: 
   revealjs:
-    theme: simple
+    theme: default
     slide-number: true
     chalkboard: true
     preview-links: auto
     css: styles.css
     fontsize: 25px
+    footer: "http://bit.ly/43NHDWl"
 typography:
   fonts:
     - family: Roboto
@@ -35,6 +36,7 @@ include-in-header:
 
 
 [@carnap1936testability, p.421]
+
 
 :::
 

@@ -1,0 +1,20 @@
+---
+title: "Your Presentation Title"
+author: "Your Name"
+format: 
+  revealjs:
+    theme: default
+    css: style.css
+---
+
+## {.title-slide}
+
+::: {.title}
+Your Presentation Title
+:::
+
+::: {.author}
+Your Name
+:::
+
+{{< qrcode https://jmbuhr.de >}}
