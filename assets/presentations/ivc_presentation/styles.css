@@ -1,6 +1,5 @@
 /* styles.css */
-.reveal .slides section section:nth-child(-n+10)::after,
-.reveal .slides > section:nth-child(-n+10)::after {
+.reveal .slides section:nth-child(-n+1)::after {
   content: "";
   position: absolute;
   bottom: 0px;
@@ -12,7 +11,10 @@
   background-repeat: no-repeat;
   background-position: center;
   z-index: 1000;
+  
 }
+
+
 
 /* Vertical centering class */
 .vcenter {
