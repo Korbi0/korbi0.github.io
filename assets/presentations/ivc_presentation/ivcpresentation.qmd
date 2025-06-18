@@ -1,5 +1,5 @@
 ---
-title: "Verifiability, Probability, Thick Ethical Concepts"
+title: "Leitgeb, Verifiability, Probability and Thick Ethical Concepts"
 institute: "The London School of Economics and Political Science"
 author: "Korbinian Friedl"
 format: 
@@ -178,10 +178,12 @@ Carnap in *The Unity of Science*:
 
 ::: {.column width="70%"}
 
-#### Indispensability
+#### Indispensability and Intersubjectivity
 - Essential for adequate description of reality
 - If someone, in their description of someone else, failed to mention that the person is *considerate* or *generous*, they may themselves be criticized as imperceptive or superficial.
+- Regarding the intersubjectivity of such properties, cf. @cavell2002AestheticProblems on aesthetic properties:
 
+> [We have the conviction] that what we are pointing to is *there*, in the object; and [...] while we know not everyone will agree with us when we say it is present, we think they are *missing something* if they don't. [@cavell2002AestheticProblems, p. 89]
 :::
 
 ::: {.column width="30%"}
@@ -212,6 +214,7 @@ Carnap in *The Unity of Science*:
 ::::
 
 # Leitgeb's New Parametric Verifiability Criterion
+
 
 :::: {.columns}
 
@@ -298,8 +301,8 @@ Where
 
 ::: {.incremental}
 - To test it's meaningfulness, we have to parametrize $NVC$.
-  - Let $\mathcal{S}_N = \{(A)\}$
-  - Empiricists will insist on $\mathcal{S}_O$ being a set of observation sentences, including, say, (B) "The temperature of physical body $b$ at place $s$ and time $t$ is d degrees centigrade", and the like.
+  - Let $\mathcal{S}_N = \{A\}$
+  - Empiricists will insist on $\mathcal{S}_O$ being a set of observation sentences, including, say, (B) "The temperature of physical body $b$ at place $s$ and time $t$ is $d$ degrees centigrade", and the like.
   - Let $\mathcal{P}$ be the set of rational degree-of-belief assignments available to the community of logical empiricists.
 - $\rightarrow$ (A) is ruled meaningless by NVC
 - But Oxford idealists might parametrize differently.
@@ -314,6 +317,14 @@ Where
 
 ::::
 
+---
+
+## Questions for Leitgeb's NVC
+- Can NVC account for the meaningfulness of TEC?
+- What should we have in mind when NVC speaks of 'probability'?
+
+---
+
 
 # Question: What Does it Mean to Assign a Probability to a Sentence?
 
@@ -321,7 +332,7 @@ Where
 - If all of the sentences in $\mathcal{S}_N$ can be (dis)confirmed by sentences in $\mathcal{S}_O$, then they are meaningful.
 - But in order to know whether $P(B\mid A)>P(B)$, I need to already be assigning a probability to $B$.
 - **What does it mean to assign a probability to a sentence I am not even sure is meaningful?**
-- Leitgeb [@leitgeb2024vindicating, p. 231] suggests that grammatical well-formedness is sufficient for probability ascription. But it it? I am not (yet) sure
+- @leitgeb2024vindicating [p. 231] suggests that grammatical well-formedness is sufficient for probability ascription. But it it? I am not (yet) sure.
 
 ---
 
@@ -410,10 +421,11 @@ Assigns probabilities without asking what the statements to which probabilities 
 :::: {.columns}
 
 ::: {.column width="70%"}
-> "als Nothwendigkeit, die in einem ästhetischen Urtheile gedacht wird, nur exemplarisch genannt werden, d. i. eine Nothwendigkeit der Beistimmung aller zu einem Urtheil, was als Beispiel einer allgemeinen Regel, die man nicht angeben kann, angesehen wird. Da ein ästhetisches Urtheil **kein objectives und Erkenntnißurtheil** ist, so **kann diese Nothwendigkeit nicht aus bestimmten Begriffen abgeleitet werden und ist also nicht apodiktisch**. Viel weniger kann sie aus der Allgemeinheit der Erfahrung (von einer durchgängigen Einhelligkeit der Urtheile über die Schönheit eines gewissen Gegenstandes) geschlossen werden. Denn nicht allein daß die Erfahrung hierzu schwerlich hinreichend viele Beläge schaffen würde, so **läßt sich auf empirische Urtheile kein Begriff der Nothwendigkeit dieser Urtheile gründen**" 
+<!-- > "als Nothwendigkeit, die in einem ästhetischen Urtheile gedacht wird, nur exemplarisch genannt werden, d. i. eine Nothwendigkeit der Beistimmung aller zu einem Urtheil, was als Beispiel einer allgemeinen Regel, die man nicht angeben kann, angesehen wird. Da ein ästhetisches Urtheil **kein objectives und Erkenntnißurtheil** ist, so **kann diese Nothwendigkeit nicht aus bestimmten Begriffen abgeleitet werden und ist also nicht apodiktisch**. Viel weniger kann sie aus der Allgemeinheit der Erfahrung (von einer durchgängigen Einhelligkeit der Urtheile über die Schönheit eines gewissen Gegenstandes) geschlossen werden. Denn nicht allein daß die Erfahrung hierzu schwerlich hinreichend viele Beläge schaffen würde, so **läßt sich auf empirische Urtheile kein Begriff der Nothwendigkeit dieser Urtheile gründen**"  -->
 
 [@kant1907kritik, 237]
 
+- @cavell2002AestheticProblems [p. 89] on @kant1907kritik in @carnap1936testability [p.454-6]'s terms: Aesthetic properties are neither observable nor realizable.
 
 :::
 
@@ -423,20 +435,68 @@ Assigns probabilities without asking what the statements to which probabilities 
 
 ::::
 
-## TEC and Aesthetic Judgments
+---
+
+## Disagreement about TEC
 
 :::: {.columns}
 
 ::: {.column width="65%"}
 
-- Judgments containing TEC share some similarities with empirical, and some with aesthetic judgments[^note]
-- At least if we follow [@mcdowell1981noncognitivism] in rejecting *Descriptive Equivalence*:
+- Consider the following kinds of conversations:
+  1. "Say about Trump what you will, but the way he acted under fire was really courageous."\
+    "That wasn't courage, that was vanity!"\
+    "How can it be vanity? He was literally risking his life!"\
+    "Yes, but not for anyone else's sake. Only for the sake of his own public image. That's vanity."\
+    ...
+
+
+:::
+
+::: {.column width="35%"}
+![](images/trump.jpeg){width=100%}
+:::
+
+::::
+
+---
+
+## Aesthetic disagreement
+
+:::: {.columns}
+
+::: {.column width="65%"}
+
+
+  2. "He plays beautifully, doesn't he?"\
+  "How can you say that? There was no line, no structure, no idea what the music was about. He's simply an impressive colorist." [@cavell2002AestheticProblems, p. 91]
+
+
+:::
+
+::: {.column width="35%"}
+![Stanley Cavell playing the piano in a way which, I am sure, has line, structure and idea what the music is about.](images/cavell_piano.jpeg){width=100%}
+:::
+
+::::
+
+---
+
+
+## Judgments involving TEC
+
+:::: {.columns}
+
+::: {.column width="65%"}
+
+- Judgments containing TEC share some similarities with aesthetic judgments
+  - Both cannot be *proven* in the way empirical judgments can; but both require and allow for argument, with refusal to respond to relevant arguments coming at a price.
+- They cannot be reduced to observation judgments, if we follow[@mcdowell1981noncognitivism] in rejecting *Descriptive Equivalence*:
 
 >*Descriptive Equivalence*: For every thick term or concept, someone has or could acquire an independently intelligible purely non-evaluative description with the same extension. [@sep-thick-ethical-concepts]
 
 - How does this work on Leitgeb's NVC?
 
-[^note]: Following [@mcdowell1981noncognitivism] on the cognitive basis for application of TEC and [@cavell2002AestheticProblems] on judgments about what we should say.
 
 
 :::
@@ -470,6 +530,7 @@ Note: We can reject strong descriptive equivalence and still have NVC assert the
   - Has both descriptive and evaluative content---that I am German and that that is detestable.
 - If our language contains the predicate 'German' and if $S_O$ contains the sentences asserting this predicate or its negation of individuals, then such a sentence would be ruled meaningful by NVC on any plausible $\mathcal{P}$, since learning that someone *isn't* German would immediately rule out their being a *Piefke*.
 - (It is less clear whether learning that someone *is* German would immediately confirm that they **are** a *Piefke*)
+- But in any case, NVC seems well-equipped to give the correct verdict on the meaningfulness of slurs.
 
 :::
 
@@ -484,11 +545,12 @@ Note: We can reject strong descriptive equivalence and still have NVC assert the
 ## Are slurs really TEC in the narrow sense?
 
 - Chappell argues that slurs are not amalgams of a neutral description and an evaluative tone, but of a caricature and an evaluative tone ("Piefke" doesn't ever *descriptively* match any real German, but only a caricature of a German) [@chappell2013thin].
+- The case for the indispensability of slurs also seems weaker than for other TEC. A description will rarely be *inadeqate* for a lack of slurs.
 - In any case, for paradigm TEC, a definite observation cannot usually (dis)prove sentences involving them.
 
 ## Sufficient Leitgeb basis
 
-- Can we adapt the concept of a "sufficient basis" from *Testability and Meaning* to frame our question?
+- Can we adapt the concept of a "sufficient basis" from *Testability and Meaning* to frame our discussion?
 
 > A class $C$ of descriptive predicates of a language $\mathcal{L}$ such that every descriptive predicate of $\mathcal{L}$ is reducible to $C$ is called a *sufficient basis* of $\mathcal{L}$ [@carnap1936testability, p.468]
 
@@ -498,11 +560,12 @@ If $S_M$ is the set of meaningful sentences in $\mathcal{L}$ and $\mathcal{P}$ a
 
 ## Sufficient Leitgeb Basis if TEC are meaningful
 
+
 Hypothesis:
 
 - If $\mathcal{P}$ makes weak descriptive equivalence false, and if $S_M$ contains TEC, then any $\mathcal{P}$-sufficient Leitgeb basis will have to include some sentences expressing aesthetic judgments.
   - N.B.: If we follow McDowell, our $\mathcal{P}$ should definitely make strong descriptive equivalence false. I don't know yet whether we would be committed to rejecting weak descriptive equivalence as well.
-- This would be a problem for empiricists (if they want a basis consisting of observation sentences and if Kant is right about aesthetic judgment having mere subjective generality).
+- This would be a problem for empiricists (if they want a basis consisting of observation sentences and if Kant is right about aesthetic judgment having mere subjective generality for lack of picking up on any obesrvable property of the object).
 
 ## Descriptive Equivalence in Inductive Logic
 
