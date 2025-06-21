@@ -11,6 +11,7 @@ format:
     css: styles.css
     fontsize: 25px
     footer: "http://bit.ly/43NHDWl"
+    toc: true
 typography:
   fonts:
     - family: Roboto
@@ -18,13 +19,11 @@ typography:
   base: Roboto
   headings: Roboto
 bibliography: references.bib
-toc: true
 toc-depth: 1
 include-in-header:
   - text: |
       <link rel="icon" type="image/vnd.icon" href="carnap_favicon.ico">
 ---
-
 
 
 # History, Motivation and Issues of the Original Verifiability Criterion
@@ -332,7 +331,7 @@ Where
 - If all of the sentences in $\mathcal{S}_N$ can be (dis)confirmed by sentences in $\mathcal{S}_O$, then they are meaningful.
 - But in order to know whether $P(B\mid A)>P(B)$, I need to already be assigning a probability to $B$.
 - **What does it mean to assign a probability to a sentence I am not even sure is meaningful?**
-- @leitgeb2024vindicating [p. 231] suggests that grammatical well-formedness is sufficient for probability ascription. But it it? I am not (yet) sure.
+- @leitgeb2024vindicating [p. 231] suggests that grammatical well-formedness is sufficient for probability ascription. But is it? I am not (yet) sure.
 
 ---
 
@@ -341,7 +340,7 @@ Where
 
 ::: {.incremental}
 - Leitgeb contrasts his NVC with Skyrms' Bayesian Verifiability Criterion as a test for *knowability*.
-  - Skyrms, he says, develops an *epistemic* criterion; he wants a *semantic* criterion.
+  - Skyrms, he says, develops an *epistemic* criterion; Leitgeb wants a *semantic* criterion.
 - In the pragmatist spirit Leitgeb seems to be going for, we can say:
   - The better our concept of probability can serve as a guide in life [@carnapProbabilityGuideLife1947], the stronger the semantic claim of the principle.
 :::
@@ -371,13 +370,14 @@ We need a concept of probability which can serve as a guide in life (to preserve
 
 # Inductive Logic
 
-## Relationship with Subjective Bayesian Degree-of-belief
-- "From Carnap's point of view, a scientist's personal degree-of belief function would be rationally reconstructed as resulting from *updating* a framework's confirmation measure by evidence"
+## Relationship with Subjective Bayesian Degree-of-Belief
+- "From Carnap's point of view, a scientist's personal degree-of belief function would be rationally reconstructed as resulting from *updating* a framework's confirmation measure by evidence" [@sep-carnap]
+
 
 
 ## Formal Statement
 
-- Let $L_n$ be a first-order language consisting of a set of (unary, for now) prediates, individual variables and $n$ individual constants $a_1, \ldots, a_n$ (which are assumed to always denote distinct objects; i.e. if $i \neq j$, then $\vDash a_i \neq a_j$.) 
+- Let $L_n$ be a first-order language consisting of a set of (unary, for now) predicates, individual variables and $n$ individual constants $a_1, \ldots, a_n$ (which are assumed to always denote distinct objects; i.e. if $i \neq j$, then $\vDash a_i \neq a_j$.) 
 - Let a *state description* be the conjunction over a consistent and complete set whose members are either atomic sentences or negations of atomic sentences.
 	- For example, in a language with predicate $B$ and constants $a_1, a_2$, some state descriptions would be
     1. $\bigwedge\{B(a_1), \neg B(a_2)\}$,
@@ -402,12 +402,12 @@ We need a concept of probability which can serve as a guide in life (to preserve
 ## Axioms of Inductive Logic
 
 - Carnap formulates the following adequacy conditions
-	1. Probabilism: Satisfy axioms of probability
-	2.  Regularity: Every state description is assigned a positive real number / no possibility is excluded a priori
+	1. Probabilism: Satisfy axioms of probability.
+	2.  Regularity: Every state description is assigned a positive real number / no possibility is excluded a priori.
 	3. Symmetry / Structurality: Two isomorphic state-descriptions are given the same probability.
 	4. Indifference (properly construed): Every structure description is given the same probability.
 
-- Question: Do I have any pragmatic reasons for accepting 3 and 4?
+- Question (as a pragmatist subjective Bayesian): Do I have any pragmatic reasons for accepting 3 and 4?
 
 ---
 
@@ -416,12 +416,18 @@ We need a concept of probability which can serve as a guide in life (to preserve
 Assigns probabilities without asking what the statements to which probabilities are assigned mean, or whether they even have (verificationistic) meaning.
 
 
-# TEC and Aesthetic Judgments
+# TEC and NVC
+
+--- 
+
+## TEC and Aesthetic Judgment
+
+<!-- ### Kant on Aesthetic Judgment
 
 :::: {.columns}
 
 ::: {.column width="70%"}
-<!-- > "als Nothwendigkeit, die in einem ästhetischen Urtheile gedacht wird, nur exemplarisch genannt werden, d. i. eine Nothwendigkeit der Beistimmung aller zu einem Urtheil, was als Beispiel einer allgemeinen Regel, die man nicht angeben kann, angesehen wird. Da ein ästhetisches Urtheil **kein objectives und Erkenntnißurtheil** ist, so **kann diese Nothwendigkeit nicht aus bestimmten Begriffen abgeleitet werden und ist also nicht apodiktisch**. Viel weniger kann sie aus der Allgemeinheit der Erfahrung (von einer durchgängigen Einhelligkeit der Urtheile über die Schönheit eines gewissen Gegenstandes) geschlossen werden. Denn nicht allein daß die Erfahrung hierzu schwerlich hinreichend viele Beläge schaffen würde, so **läßt sich auf empirische Urtheile kein Begriff der Nothwendigkeit dieser Urtheile gründen**"  -->
+> "als Nothwendigkeit, die in einem ästhetischen Urtheile gedacht wird, nur exemplarisch genannt werden, d. i. eine Nothwendigkeit der Beistimmung aller zu einem Urtheil, was als Beispiel einer allgemeinen Regel, die man nicht angeben kann, angesehen wird. Da ein ästhetisches Urtheil **kein objectives und Erkenntnißurtheil** ist, so **kann diese Nothwendigkeit nicht aus bestimmten Begriffen abgeleitet werden und ist also nicht apodiktisch**. Viel weniger kann sie aus der Allgemeinheit der Erfahrung (von einer durchgängigen Einhelligkeit der Urtheile über die Schönheit eines gewissen Gegenstandes) geschlossen werden. Denn nicht allein daß die Erfahrung hierzu schwerlich hinreichend viele Beläge schaffen würde, so **läßt sich auf empirische Urtheile kein Begriff der Nothwendigkeit dieser Urtheile gründen**" 
 
 [@kant1907kritik, 237]
 
@@ -435,20 +441,21 @@ Assigns probabilities without asking what the statements to which probabilities 
 
 ::::
 
----
+--- -->
 
-## Disagreement about TEC
+## Arguing about TEC
 
 :::: {.columns}
 
 ::: {.column width="65%"}
 
-- Consider the following kinds of conversations:
-  1. "Say about Trump what you will, but the way he acted under fire was really courageous."\
+Consider the following kinds of conversations:
+
+1. "Say about Trump what you will, but the way he acted under fire was really courageous."\
     "That wasn't courage, that was vanity!"\
     "How can it be vanity? He was literally risking his life!"\
     "Yes, but not for anyone else's sake. Only for the sake of his own public image. That's vanity."\
-    ...
+    ["Well, it was courageous *for me*."]{style="color: grey;"}
 
 
 :::
@@ -461,7 +468,7 @@ Assigns probabilities without asking what the statements to which probabilities 
 
 ---
 
-## Aesthetic disagreement
+## Arguing about Aesthetic Judgments
 
 :::: {.columns}
 
@@ -469,13 +476,17 @@ Assigns probabilities without asking what the statements to which probabilities 
 
 
   2. "He plays beautifully, doesn't he?"\
-  "How can you say that? There was no line, no structure, no idea what the music was about. He's simply an impressive colorist." [@cavell2002AestheticProblems, p. 91]
+  "How can you say that? There was no line, no structure, no idea what the music was about. He's simply an impressive colorist."\
+  ["Well, it was beautiful *for me*."]{style="color: grey;"}
+
+
+  [@cavell2002AestheticProblems, p. 91]
 
 
 :::
 
 ::: {.column width="35%"}
-![Stanley Cavell playing the piano in a way which, I am sure, has line, structure and idea what the music is about.](images/cavell_piano.jpeg){width=100%}
+![Stanley Cavell playing the piano in a way which, I am sure, has line, structure and an idea what the music is about.](images/cavell_piano.jpeg){width=100%}
 :::
 
 ::::
@@ -491,7 +502,7 @@ Assigns probabilities without asking what the statements to which probabilities 
 
 - Judgments containing TEC share some similarities with aesthetic judgments
   - Both cannot be *proven* in the way empirical judgments can; but both require and allow for argument, with refusal to respond to relevant arguments coming at a price.
-- They cannot be reduced to observation judgments, if we follow[@mcdowell1981noncognitivism] in rejecting *Descriptive Equivalence*:
+- They cannot be reduced to observation judgments, if we follow @mcdowell1981noncognitivism in rejecting *Descriptive Equivalence*:
 
 >*Descriptive Equivalence*: For every thick term or concept, someone has or could acquire an independently intelligible purely non-evaluative description with the same extension. [@sep-thick-ethical-concepts]
 
@@ -529,7 +540,7 @@ Note: We can reject strong descriptive equivalence and still have NVC assert the
 - Consider the sentence "Korbinian is a *Piefke*"
   - Has both descriptive and evaluative content---that I am German and that that is detestable.
 - If our language contains the predicate 'German' and if $S_O$ contains the sentences asserting this predicate or its negation of individuals, then such a sentence would be ruled meaningful by NVC on any plausible $\mathcal{P}$, since learning that someone *isn't* German would immediately rule out their being a *Piefke*.
-- (It is less clear whether learning that someone *is* German would immediately confirm that they **are** a *Piefke*)
+- (It is less clear whether learning that someone *is* German would immediately confirm that they *are* a *Piefke*)
 - But in any case, NVC seems well-equipped to give the correct verdict on the meaningfulness of slurs.
 
 :::
@@ -565,7 +576,7 @@ Hypothesis:
 
 - If $\mathcal{P}$ makes weak descriptive equivalence false, and if $S_M$ contains TEC, then any $\mathcal{P}$-sufficient Leitgeb basis will have to include some sentences expressing aesthetic judgments.
   - N.B.: If we follow McDowell, our $\mathcal{P}$ should definitely make strong descriptive equivalence false. I don't know yet whether we would be committed to rejecting weak descriptive equivalence as well.
-- This would be a problem for empiricists (if they want a basis consisting of observation sentences and if Kant is right about aesthetic judgment having mere subjective generality for lack of picking up on any obesrvable property of the object).
+- This would be a problem for empiricists (if they want a basis consisting of observation sentences and if Kant is right about aesthetic judgment having mere subjective generality for lack of picking up on any observable property of the object).
 
 ## Descriptive Equivalence in Inductive Logic
 
