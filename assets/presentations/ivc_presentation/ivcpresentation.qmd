@@ -26,6 +26,8 @@ include-in-header:
 ---
 
 
+![](images/leitgeb_paper.png){width=100% height=100vh style="object-fit: contain; display: block; margin: 0 auto;"}
+
 # History, Motivation and Issues of the Original Verifiability Criterion
 
 :::: {.columns}
@@ -77,9 +79,8 @@ include-in-header:
 **OVC**: A declarative sentence is meaningful iff it is **confirmable or disconfirmable**.
 :::
 
----
 
-## The Self-Undercutting Problem
+<!-- ## The Self-Undercutting Problem
 
 
 
@@ -89,11 +90,13 @@ include-in-header:
 
 But I find this issue comparetively boring.
 
-<!-- - But: Principle of tolerance:ß
-  - There is no unique "correct" framework---no unique correct language or logic. OVC is one way in which we can choose to structure our scientific discourse. -->
+- But: Principle of tolerance:ß
+  - There is no unique "correct" framework---no unique correct language or logic. OVC is one way in which we can choose to structure our scientific discourse.
 :::
 
----
+--- -->
+
+
 
 ## Normative Statements and the Fact-Value Dichotomy
 
@@ -192,6 +195,39 @@ Carnap in *The Unity of Science*:
 ::::
 
 ---
+
+
+
+
+### Disentangling TEC
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+>*Descriptive Equivalence*: For every thick term or concept, someone has or could acquire an independently intelligible purely non-evaluative description with the same extension. [@sep-thick-ethical-concepts]
+
+- This is endorsed e.g. by R.M. Hare. On the example of calling an act "cruel", he writes:
+
+> The statement that the victim is suffering, and the statement that the act which made him suffer was wrong, are two distinct statements. [...] We can say 'He was caused to suffer deeply' but add 'All the same, there was nothing wrong with it; it happens all the time in good military academies, and that's the way to produce officers with moral fibre.'" [@hareMoralThinkingIts1981, p.73-4]
+
+
+:::
+::: {.column width="30%"}
+![](images/Richard-M-Hare.jpg)
+:::
+::::
+
+---
+
+### Disentangling and Verificationism
+
+- Verificationism seems to commit us to something like Descriptive Equivalence, and to statements involving TEC being a package deal of two statements, really: 
+  - A (cognitively meaningful) statement expressing the coextensional descriptive content; 
+  - and a (cognitively meaningless) approval or disapproval of the situation.
+- But many (e.g. Putnam, Williams, McDowell) are sceptical about *Descriptive Equivalence*.
+- [More on this later](#tec-and-nvc). 
+
 
 ## Leitgeb's Promise:
 
@@ -424,7 +460,7 @@ Assigns probabilities without asking what the statements to which probabilities 
 
 :::: {.columns}
 
-::: {.column width="70%"}
+::: {.column width="80%"}
 
 How are TEC different and similar to observation terms?
 
@@ -438,11 +474,11 @@ How are TEC different and similar to observation terms?
 
 :::
 
-::: {.column width="30%"}
+::: {.column width="20%"}
 
-![](images/Bernard-Williams.jpg){width=80%}
+![](images/Bernard-Williams.jpg){width=85%}
 
-![](images/ginsborg.jpg){width=80%}
+![](images/ginsborg.jpg){width=85%}
 
 :::
 
@@ -502,7 +538,7 @@ How are TEC different and similar to observation terms?
 ::: {.column width="65%"}
 
 
- "Say about Trump what you will, but the way he acted under fire was really courageous."\
+"Say about Trump what you will, but the way he acted under fire was really courageous."\
 "That wasn't courage, that was vanity!"\
 "How can it be vanity? His ear was pierced by a bullet! He was literally risking his life!"\
 "Yes, but not for anyone else's sake. Only for the sake of his own public image. That's vanity."\
@@ -529,13 +565,13 @@ How are TEC different and similar to observation terms?
 
 - Judgments containing TEC share some similarities with aesthetic judgments
   - Both cannot be proven or tested in the way empirical judgments (sometimes) can; but both require and allow for argument, with refusal to respond to relevant arguments coming at a price.
-- They cannot be reduced to observation judgments, if we follow @mcdowell1981noncognitivism in rejecting *Descriptive Equivalence*[^1]:
+- They cannot be reduced to observation judgments, if we follow @mcdowell1981noncognitivism in rejecting *Descriptive Equivalence*:
 
 >*Descriptive Equivalence*: For every thick term or concept, someone has or could acquire an independently intelligible purely non-evaluative description with the same extension. [@sep-thick-ethical-concepts]
 
 - How does this work on Leitgeb's NVC?
 
-[^1]: So if McDowell (and Putnam and Williams) are right, they fail OVC's test for meaningfulness.
+
 
 :::
 
@@ -618,8 +654,8 @@ Hypothesis:
 
 # Summary
 - Leitgeb formulates a probabilistic, parametric version of the verifiability criterion.
-- It is not clear what "probability" means here and whether he can have his cake (capture pragmatic meaning) and eat it too (assign probabilities to potentially meaningless sentences).
-- Concerning TEC, I suggest that either weak descriptive equivalence must hold or some aesthetic judgments must be primitively meaningful.
+- It is not clear what "probability" means here and whether he can have his cake (connect to pragmatic meaning) and eat it too (assign probabilities to potentially meaningless sentences).
+- Concerning TEC, I suggest that $NVC$ implies that either weak descriptive equivalence must hold or some (quasi&#8209;)aesthetic judgments must be primitively meaningful.
 
 
 # References
