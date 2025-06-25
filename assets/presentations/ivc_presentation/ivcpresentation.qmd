@@ -131,6 +131,7 @@ Carnap in *The Unity of Science*:
 ::: {.column width="70%"}
 
 **Factual statements presuppose values:**
+
 - Coherence, comprehensiveness, simplicity, instrumental efficacy
 - Part of our idea of **cognitive flourishing** and **eudaimonia**
 
@@ -175,7 +176,7 @@ Carnap in *The Unity of Science*:
 
 ::: {.column width="70%"}
 
-#### Indispensability and Intersubjectivity
+#### Indispensability
 - Essential for adequate description of reality
 - If someone, in their description of someone else, failed to mention that the person is *considerate* or *generous*, they may themselves be criticized as imperceptive or superficial.
 <!-- - Regarding the intersubjectivity of such properties, cf. @cavell2002AestheticProblems on aesthetic properties:
