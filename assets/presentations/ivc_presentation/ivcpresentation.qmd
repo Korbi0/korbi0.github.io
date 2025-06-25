@@ -31,10 +31,7 @@ include-in-header:
 :::: {.columns}
 
 ::: {.column width="70%"}
-> "The connection between meaning and confirmation has sometimes been formulated by the thesis that a sentence is meaningful if and only if it is verifiable, and that its meaning is the method of its verification. The historical merit of this thesis was that it called attention to the close connection between the meaning of a sentence and the way it is confirmed."
-
-
-[@carnap1936testability, p.421]
+> The connection between meaning and confirmation has sometimes been formulated by the thesis that a sentence is meaningful if and only if it is verifiable, and that its meaning is the method of its verification. The historical merit of this thesis was that it called attention to the close connection between the meaning of a sentence and the way it is confirmed. [@carnap1936testability, p.421]
 
 
 :::
@@ -89,7 +86,7 @@ include-in-header:
 ::: {.incremental}
 - But: Principle of tolerance:
   - There is no unique "correct" framework---no unique correct language or logic. OVC is one way in which we can choose to structure our scientific discourse.
-- With this in mind, consider: The only maxim we can adopt if we want to conceive of ourselves as lawgivers in a possible kingdom of ends is: Only say what is confirmable or disconfirmable.
+- But honestly I find the self-application 
 :::
 
 ---
@@ -100,21 +97,18 @@ Carnap in *The Unity of Science*:
 
 - In the empirical sciences, the logical relationship of their statements to protocol / observation statements can be drawn out. Trying to do this with the statements of classical Philosophy shows the absence of such relations.
 
->"All statements belonging to Metaphysics, regulative Ethics, and (metaphysical) Epistemology have this defect, are in fact unverifiable and, therefore, unscientific. In the Viennese Circle, we are accustomed to describe such statements as nonsense (after *Wittgenstein*). "
-
-[@carnap1934unity, p. 26]
+> All statements belonging to Metaphysics, regulative Ethics, and (metaphysical) Epistemology have this defect, are in fact unverifiable and, therefore, unscientific. In the Viennese Circle, we are accustomed to describe such statements as nonsense (after *Wittgenstein*). [@carnap1934unity, p. 26]
 
 ---
 
-## Putnam{.smaller}
+## Putnam
 
 :::: {.columns}
 
 ::: {.column width="70%"}
 ### Verifiability Commits us to a Dichotomy of Fact and Value
-> The verifiability criterion implies a dichotomy of values and facts: ethics is not a matter of facts, and matters of fact have nothing to do with ethics
 
-[@putnam_collapse_2004, p.19]
+> The verifiability criterion implies a dichotomy of values and facts: ethics is not a matter of facts, and matters of fact have nothing to do with ethics. [@putnam_collapse_2004, p.19]
 
 :::
 
@@ -148,7 +142,7 @@ Carnap in *The Unity of Science*:
 --- 
 
 
-### Thick Ethical Concepts
+### Thick Ethical Concepts (TEC)
 
 :::: {.columns}
 
@@ -157,7 +151,7 @@ Carnap in *The Unity of Science*:
 
 
 #### Examples
-- "Considerate", "gentle", "cruel"
+- "Coward", "considerate", "gentle"
 
 #### Dual Function
 1. **Descriptive**: Explain and predict behavior
@@ -180,9 +174,10 @@ Carnap in *The Unity of Science*:
 #### Indispensability and Intersubjectivity
 - Essential for adequate description of reality
 - If someone, in their description of someone else, failed to mention that the person is *considerate* or *generous*, they may themselves be criticized as imperceptive or superficial.
-- Regarding the intersubjectivity of such properties, cf. @cavell2002AestheticProblems on aesthetic properties:
+<!-- - Regarding the intersubjectivity of such properties, cf. @cavell2002AestheticProblems on aesthetic properties:
 
-> [We have the conviction] that what we are pointing to is *there*, in the object; and [...] while we know not everyone will agree with us when we say it is present, we think they are *missing something* if they don't. [@cavell2002AestheticProblems, p. 89]
+> [We have the conviction] that what we are pointing to is *there*, in the object; and [...] while we know not everyone will agree with us when we say it is present, we think they are *missing something* if they don't. [@cavell2002AestheticProblems, p. 89] -->
+
 :::
 
 ::: {.column width="30%"}
@@ -200,7 +195,7 @@ Carnap in *The Unity of Science*:
 ::: {.column width="60%"}
 
 
-> "...Are statements of string theory meaningful with respect to the language of relativity theory/quantum mechanics and the set of probability measures available to present-day physicists? Are prescriptive (normative or evaluative) sentences meaningful with respect to a set of descriptive sentences and the set of probability measures available to competent ordinary speakers or professional moral philosophers? (Assuming that probabilities have been assigned to prescriptive sentences, too). At least in principle, any such question can be addressed using appropriate instances of $NVC(\mathcal{L}, \mathcal{S}_O, \mathcal{S}_N, \mathcal{P})$, and there are many more potential applications that may not have concerned the logical empiricists but which may well be relevant today."
+> ...Are statements of string theory meaningful with respect to the language of relativity theory/quantum mechanics and the set of probability measures available to present-day physicists? Are prescriptive (normative or evaluative) sentences meaningful with respect to a set of descriptive sentences and the set of probability measures available to competent ordinary speakers or professional moral philosophers? (Assuming that probabilities have been assigned to prescriptive sentences, too). At least in principle, any such question can be addressed using appropriate instances of $NVC(\mathcal{L}, \mathcal{S}_O, \mathcal{S}_N, \mathcal{P})$, and there are many more potential applications that may not have concerned the logical empiricists but which may well be relevant today.
 
 [@leitgeb2024vindicating p.236-7]
 
@@ -218,7 +213,7 @@ Carnap in *The Unity of Science*:
 :::: {.columns}
 
 ::: {.column width="65%"}
-- VC $(\mathcal{L}, \mathcal{S}_O, \mathcal{S}_N, \mathcal{P})$ – A sentence in $\mathcal{S}_N$ is meaningful relative to $\mathcal{S}_O$ and $\mathcal{P}$ iff it is confirmable by members of $\mathcal{S}_O$ relative to $\mathcal{P}$ or disconfirmable by members of $\mathcal{S}_O$ relative to $\mathcal{P}$.
+- $NVC(\mathcal{L}, \mathcal{S}_O, \mathcal{S}_N, \mathcal{P})$ – A sentence in $\mathcal{S}_N$ is meaningful relative to $\mathcal{S}_O$ and $\mathcal{P}$ iff it is confirmable by members of $\mathcal{S}_O$ relative to $\mathcal{P}$ or disconfirmable by members of $\mathcal{S}_O$ relative to $\mathcal{P}$.
 	
 Where 
 
@@ -227,7 +222,7 @@ Where
 - $\mathcal{P}$ is a subset of $Prob(\mathcal{L})$, the set of epistemic probability measures on $\mathcal{L}$ (i.e. maps $\mathcal{L} \rightarrow [0,1]$ which assign value 1 to logical truths and are (finitely) additive for logically inconsistent members of $\mathcal{L}$). 
 (Dis)confirmation is explicated as probability in- or decrease upon conditionalization.
 
-[@leitgeb2024vindicating]
+[@leitgeb2024vindicating, p. 226]
 :::
 
 ::: {.column width="35%"}
@@ -296,7 +291,7 @@ Where
 :::: {.columns}
 
 ::: {.column width="70%"}
-**Sentence**: (A) "The Absolute enters into, but is itself incapable of, evolution and progress"
+**Sentence**: (A) "'[The Absolute] enters into, but is itself incapable of, evolution and progress" [@bradley1893appearance, p. 499]
 
 ::: {.incremental}
 - To test it's meaningfulness, we have to parametrize $NVC$.
@@ -311,7 +306,7 @@ Where
 :::
 
 ::: {.column width="30%"}
-![F.H. Bradley](images/bradley.png){width=100%}
+![](images/bradley.png){width=100%}
 :::
 
 ::::
@@ -319,13 +314,12 @@ Where
 ---
 
 ## Questions for Leitgeb's NVC
-- Can NVC account for the meaningfulness of TEC?
+
 - What should we have in mind when NVC speaks of 'probability'?
+- Can NVC account for the meaningfulness of TEC?
 
----
 
-
-# Question: What Does it Mean to Assign a Probability to a Sentence?
+# What Does it Mean to Assign a Probability to a Sentence?
 
 - The picture is this: We have a set of sentences whose meaning is not in doubt, $\mathcal{S}_O$ (e.g. empirical sentences). Then a set of sentences $\mathcal{S}_N$ whose meaningfulness is in doubt.
 - If all of the sentences in $\mathcal{S}_N$ can be (dis)confirmed by sentences in $\mathcal{S}_O$, then they are meaningful.
@@ -356,6 +350,7 @@ Where
   - This is possible only if there is  procedure for verifying or falsifying $\varphi$.
   - That is, if $\varphi$ already satisfies a quite extreme version of OVC.
 
+
 ---
 
 ## Can we be Frequentists?
@@ -371,7 +366,8 @@ We need a concept of probability which can serve as a guide in life (to preserve
 # Inductive Logic
 
 ## Relationship with Subjective Bayesian Degree-of-Belief
-- "From Carnap's point of view, a scientist's personal degree-of belief function would be rationally reconstructed as resulting from *updating* a framework's confirmation measure by evidence" [@sep-carnap]
+
+> From Carnap's point of view, a scientist's personal degree-of belief function would be rationally reconstructed as resulting from *updating* a framework's confirmation measure by evidence. [@sep-carnap]
 
 
 
@@ -408,6 +404,7 @@ We need a concept of probability which can serve as a guide in life (to preserve
 	4. Indifference (properly construed): Every structure description is given the same probability.
 
 - Question (as a pragmatist subjective Bayesian): Do I have any pragmatic reasons for accepting 3 and 4?
+- Also I am still not sure---if this method tells me to assign probabilty $c$ to the sentence "The Absolute enters into..."; what does that mean for me? That I should accept a bet on it at any odds better than $c:1-c$? I still don't know what such a bet even is.
 
 ---
 
@@ -418,9 +415,33 @@ Assigns probabilities without asking what the statements to which probabilities 
 
 # TEC and NVC
 
---- 
-
 ## TEC and Aesthetic Judgment
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+My frame for thinking about TEC can be sketched by the following two quotes from Bernard Williams and Hannah Ginsborg:
+
+Bernard Williams on the difference between ethical and theoretical disagreement:
+
+> In a scientific inquiry, there should ideally be convergence on an answer, where the best **explanation** of the convergence involves the idea that the answer represents **how things are**; in the area of the ethical [...], there is no such coherent hope. [@WilliamsBernard2011Eatl, p. 150]
+
+And Hannah Ginsborg on the normativity of aesthetic judgments:
+
+> I take my own pleasurable response to the object to be **appropriate to or called-for by the object**. [...] But [...] since beauty is not an objective property of things I cannot claim that my finding the flowering cherry beautifuyl is appropriate to the flowering cherry just because it is, in fact, beautiful. [..] there are **no test criteria** I can employ to justify my claim. [@ginsborgAestheticNormativityKnowing2020, p. 57-8]
+
+:::
+
+::: {.column width="30%"}
+
+![](images/Bernard-Williams.jpg){width=80%}
+
+![](images/ginsborg.jpg){width=80%}
+
+:::
+
+::::
 
 <!-- ### Kant on Aesthetic Judgment
 
@@ -494,7 +515,7 @@ Consider the following kinds of conversations:
 ---
 
 
-## Judgments involving TEC
+## Judgments Involving TEC
 
 :::: {.columns}
 
@@ -502,13 +523,13 @@ Consider the following kinds of conversations:
 
 - Judgments containing TEC share some similarities with aesthetic judgments
   - Both cannot be *proven* in the way empirical judgments can; but both require and allow for argument, with refusal to respond to relevant arguments coming at a price.
-- They cannot be reduced to observation judgments, if we follow @mcdowell1981noncognitivism in rejecting *Descriptive Equivalence*:
+- They cannot be reduced to observation judgments, if we follow @mcdowell1981noncognitivism in rejecting *Descriptive Equivalence*[^1]:
 
 >*Descriptive Equivalence*: For every thick term or concept, someone has or could acquire an independently intelligible purely non-evaluative description with the same extension. [@sep-thick-ethical-concepts]
 
 - How does this work on Leitgeb's NVC?
 
-
+[^1]: So if McDowell (and Putnam and Williams) are right, they fail OVC's test for meaningfulness.
 
 :::
 
@@ -538,7 +559,7 @@ Note: We can reject strong descriptive equivalence and still have NVC assert the
 ::: {.column width="65%"}
 
 - Consider the sentence "Korbinian is a *Piefke*"
-  - Has both descriptive and evaluative content---that I am German and that that is detestable.
+  - Has both descriptive and evaluative content---among others things that I am German and that I am a German *in the bad way*.
 - If our language contains the predicate 'German' and if $S_O$ contains the sentences asserting this predicate or its negation of individuals, then such a sentence would be ruled meaningful by NVC on any plausible $\mathcal{P}$, since learning that someone *isn't* German would immediately rule out their being a *Piefke*.
 - (It is less clear whether learning that someone *is* German would immediately confirm that they *are* a *Piefke*)
 - But in any case, NVC seems well-equipped to give the correct verdict on the meaningfulness of slurs.
@@ -553,11 +574,11 @@ Note: We can reject strong descriptive equivalence and still have NVC assert the
 
 ---
 
-## Are slurs really TEC in the narrow sense?
+## Are Slurs Really TEC in the Narrow Sense?
 
-- Chappell argues that slurs are not amalgams of a neutral description and an evaluative tone, but of a caricature and an evaluative tone ("Piefke" doesn't ever *descriptively* match any real German, but only a caricature of a German) [@chappell2013thin].
+- E.g. @chappell2013thin writes that slurs are not amalgams of a neutral description and an evaluative tone, but of a caricature and an evaluative tone ("Piefke" doesn't ever *descriptively* match any real German, but only a caricature of a German).
 - The case for the indispensability of slurs also seems weaker than for other TEC. A description will rarely be *inadeqate* for a lack of slurs.
-- In any case, for paradigm TEC, a definite observation cannot usually (dis)prove sentences involving them.
+- In any case, for paradigm TEC, an observation or even a descriptive fact cannot usually (dis)prove sentences involving them.
 
 ## Sufficient Leitgeb basis
 
@@ -576,7 +597,7 @@ Hypothesis:
 
 - If $\mathcal{P}$ makes weak descriptive equivalence false, and if $S_M$ contains TEC, then any $\mathcal{P}$-sufficient Leitgeb basis will have to include some sentences expressing aesthetic judgments.
   - N.B.: If we follow McDowell, our $\mathcal{P}$ should definitely make strong descriptive equivalence false. I don't know yet whether we would be committed to rejecting weak descriptive equivalence as well.
-- This would be a problem for empiricists (if they want a basis consisting of observation sentences and if Kant is right about aesthetic judgment having mere subjective generality for lack of picking up on any observable property of the object).
+- This would be a problem for empiricists (if they want a basis consisting of observation sentences and if Kant / the Kantian tradition is right about aesthetic judgment having mere subjective generality for lack of picking up on any observable property of the object).
 
 ## Descriptive Equivalence in Inductive Logic
 
