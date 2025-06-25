@@ -644,9 +644,9 @@ If $S_M$ is the set of meaningful sentences in $\mathcal{L}$ and $\mathcal{P}$ a
 
 Hypothesis:
 
-- If $\mathcal{P}$ makes weak descriptive equivalence false, and if $S_M$ contains TEC, then any $\mathcal{P}$-sufficient Leitgeb basis will have to include some sentences expressing aesthetic judgments.
+- If $\mathcal{P}$ makes weak descriptive equivalence false, and if $S_M$ contains TEC, then any $\mathcal{P}$-sufficient Leitgeb basis will have to include some sentences expressing (quasi&#8209;)aesthetic judgments.
   - N.B.: If we follow McDowell, our $\mathcal{P}$ should definitely make strong descriptive equivalence false. I don't know yet whether we would be committed to rejecting weak descriptive equivalence as well.
-- This would be a problem for empiricists (if they want a basis consisting of observation sentences and if Kant / the Kantian tradition is right about aesthetic judgment having mere subjective generality for lack of picking up on any observable property of the object).
+- This would be a problem for empiricists (if they want a basis consisting of observation sentences and if Kant (and Kantians like Ginsborg and McDowell) are right about aesthetic judgment having mere subjective generality for lack of picking up on any observable property of the object).
 
 ## Descriptive Equivalence in Inductive Logic
 
