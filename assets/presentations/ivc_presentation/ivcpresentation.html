@@ -173,6 +173,7 @@ Korbinian Friedl
 <li><a href="#/what-does-it-mean-to-assign-a-probability-to-a-sentence" id="/toc-what-does-it-mean-to-assign-a-probability-to-a-sentence">What Does it Mean to Assign a Probability to a Sentence?</a></li>
 <li><a href="#/inductive-logic" id="/toc-inductive-logic">Inductive Logic</a></li>
 <li><a href="#/tec-and-nvc" id="/toc-tec-and-nvc">TEC and NVC</a></li>
+<li><a href="#/summary" id="/toc-summary">Summary</a></li>
 <li><a href="#/references" id="/toc-references">References</a></li>
 </ul>
 </nav>
@@ -315,7 +316,7 @@ Korbinian Friedl
 <p>Where</p>
 <ul>
 <li><span class="math inline">\(\mathcal{L}\)</span> is a language of declarative sentences (assumed to be at least closed under negation, conjunction and disjunction),</li>
-<li><span class="math inline">\(\mathcal{S}_O, \mathcal{S_2}\)</span> are subsets of <span class="math inline">\(\mathcal{L}\)</span> and</li>
+<li><span class="math inline">\(\mathcal{S}_O, \mathcal{S_N}\)</span> are subsets of <span class="math inline">\(\mathcal{L}\)</span> and</li>
 <li><span class="math inline">\(\mathcal{P}\)</span> is a subset of <span class="math inline">\(Prob(\mathcal{L})\)</span>, the set of epistemic probability measures on <span class="math inline">\(\mathcal{L}\)</span> (i.e.&nbsp;maps <span class="math inline">\(\mathcal{L} \rightarrow [0,1]\)</span> which assign value 1 to logical truths and are (finitely) additive for logically inconsistent members of <span class="math inline">\(\mathcal{L}\)</span>). (Dis)confirmation is explicated as probability in- or decrease upon conditionalization.</li>
 </ul>
 <p><span class="citation" data-cites="leitgeb2024vindicating">(<a href="#/references" role="doc-biblioref" onclick="">Leitgeb 2024, 226</a>)</span></p>
@@ -328,7 +329,7 @@ Korbinian Friedl
 <div class="columns">
 <div class="column" style="width:60%;">
 <ul>
-<li>For <span class="math inline">\(A, B \in \mathcal{L}\)</span> and <span class="math inline">\(\mathcal{P}\in Prob(\mathcal{L})\)</span>, <span class="math inline">\(A\)</span> (dis)confirms <span class="math inline">\(B\)</span> relative to <span class="math inline">\(P\)</span> iff <span class="math inline">\(P(B\mid A)&gt;P(B)\)</span> (respectively <span class="math inline">\(P(B\mid A)&lt;P(B)\)</span>)</li>
+<li>For <span class="math inline">\(A, B \in \mathcal{L}\)</span> and <span class="math inline">\(P\in Prob(\mathcal{L})\)</span>, <span class="math inline">\(A\)</span> (dis)confirms <span class="math inline">\(B\)</span> relative to <span class="math inline">\(P\)</span> iff <span class="math inline">\(P(B\mid A)&gt;P(B)\)</span> (respectively <span class="math inline">\(P(B\mid A)&lt;P(B)\)</span>)</li>
 <li>For <span class="math inline">\(B \in \mathcal{L}\)</span>, <span class="math inline">\(\mathcal{S}_O \subseteq \mathcal{L}\)</span>, <span class="math inline">\(\mathcal{P}\subseteq Prob(\mathcal{L})\)</span>, <span class="math inline">\(B\)</span> is (dis)confirmable by members of <span class="math inline">\(\mathcal{S}_O\)</span> relative to <span class="math inline">\(\mathcal{P}\)</span> iff there are <span class="math inline">\(A\in\mathcal{S}_O\)</span>, <span class="math inline">\(P\in\mathcal{P}\)</span>, such that <span class="math inline">\(A\)</span> (dis)confirms <span class="math inline">\(B\)</span> relative to <span class="math inline">\(P\)</span>.</li>
 </ul>
 </div><div class="column" style="width:35%;">
@@ -369,7 +370,7 @@ Korbinian Friedl
 <li class="fragment">To test it’s meaningfulness, we have to parametrize <span class="math inline">\(NVC\)</span>.
 <ul>
 <li class="fragment">Let <span class="math inline">\(\mathcal{S}_N = \{A\}\)</span></li>
-<li class="fragment">Empiricists will insist on <span class="math inline">\(\mathcal{S}_O\)</span> being a set of observation sentences, including, say, (B) “The temperature of physical body <span class="math inline">\(b\)</span> at place <span class="math inline">\(s\)</span> and time <span class="math inline">\(t\)</span> is <span class="math inline">\(d\)</span> degrees centigrade”, and the like.</li>
+<li class="fragment">Empiricists will insist on <span class="math inline">\(\mathcal{S}_O\)</span> being a set of observation sentences, including, say, (C) “The temperature of physical body <span class="math inline">\(b\)</span> at place <span class="math inline">\(s\)</span> and time <span class="math inline">\(t\)</span> is <span class="math inline">\(d\)</span> degrees centigrade”, and the like.</li>
 <li class="fragment">Let <span class="math inline">\(\mathcal{P}\)</span> be the set of rational degree-of-belief assignments available to the community of logical empiricists.</li>
 </ul></li>
 <li class="fragment"><span class="math inline">\(\rightarrow\)</span> (A) is ruled meaningless by NVC</li>
@@ -386,7 +387,7 @@ Korbinian Friedl
 <h2>Questions for Leitgeb’s NVC</h2>
 <ul>
 <li>What should we have in mind when NVC speaks of ‘probability’?</li>
-<li>Can NVC account for the meaningfulness of TEC?</li>
+<li>Can <span class="math inline">\(NVC\)</span> help us discuss the specific way in which TEC are meaningful?</li>
 </ul>
 </section></section>
 <section>
@@ -437,10 +438,10 @@ Korbinian Friedl
 <li><ol start="2" type="a">
 <li>likewise seems to presuppose meaningfulness in the OVC sense</li>
 </ol></li>
-<li>(Also note that it would be directly contrary to <span class="citation" data-cites="carnap1936testability">Carnap (<a href="#/references" role="doc-biblioref" onclick="">1936, 427</a>)</span> who explicitly rejected a proposal by <span class="citation" data-cites="reichenbach1935induktion">Reichenbach (<a href="#/references" role="doc-biblioref" onclick="">1935, 271</a> ff.)</span> to equate confirmation with the limit of relative frequency.</li>
+<li>(Also note that it would be directly contrary to <span class="citation" data-cites="carnap1936testability">Carnap (<a href="#/references" role="doc-biblioref" onclick="">1936, 427</a>)</span> who explicitly rejected a proposal by <span class="citation" data-cites="reichenbach1935induktion">Reichenbach (<a href="#/references" role="doc-biblioref" onclick="">1935, 271</a> ff.)</span> to equate confirmation with the limit of relative frequency.)</li>
 </ul></li>
 </ul>
-<p>We need a concept of probability which can serve as a guide in life (to preserve the pragmatist appeal of Leitgeb’s semantics)—i.e.&nbsp;can be called probability<span class="math inline">\(_1\)</span> in Carnap’s <span class="citation" data-cites="carnapTwoConceptsProbability1945">(<a href="#/references" role="doc-biblioref" onclick="">1945</a>)</span> diction—and can make sense of assigning probability in a purely formal way, independent of the meaning of the elements of <span class="math inline">\(\mathcal{L}\)</span></p>
+<p>We need a concept of probability which can serve as a guide in life (to preserve the pragmatist appeal of Leitgeb’s semantics)—i.e.&nbsp;can be called probability<span class="math inline">\(_1\)</span> in Carnap’s <span class="citation" data-cites="carnapTwoConceptsProbability1945">(<a href="#/references" role="doc-biblioref" onclick="">1945</a>)</span> diction—and can make sense of assigning probability in a purely formal way, independent of the meaning of the elements of <span class="math inline">\(\mathcal{L}\)</span>.</p>
 </section></section>
 <section>
 <section id="inductive-logic" class="title-slide slide level1 center">
@@ -514,14 +515,18 @@ Korbinian Friedl
 <h2>TEC and Aesthetic Judgment</h2>
 <div class="columns">
 <div class="column" style="width:70%;">
-<p>My frame for thinking about TEC can be sketched by the following two quotes from Bernard Williams and Hannah Ginsborg:</p>
-<p>Bernard Williams on the difference between ethical and theoretical disagreement:</p>
+<p>How are TEC different and similar to observation terms?</p>
+<ul>
+<li>Bernard Williams on the difference between ethical and theoretical disagreement:</li>
+</ul>
 <blockquote>
 <p>In a scientific inquiry, there should ideally be convergence on an answer, where the best <strong>explanation</strong> of the convergence involves the idea that the answer represents <strong>how things are</strong>; in the area of the ethical […], there is no such coherent hope. <span class="citation" data-cites="WilliamsBernard2011Eatl">(<a href="#/references" role="doc-biblioref" onclick="">Williams 2011, 150</a>)</span></p>
 </blockquote>
-<p>And Hannah Ginsborg on the normativity of aesthetic judgments:</p>
+<ul>
+<li>And Hannah Ginsborg on the normativity of aesthetic judgments:</li>
+</ul>
 <blockquote>
-<p>I take my own pleasurable response to the object to be <strong>appropriate to or called-for by the object</strong>. […] But […] since beauty is not an objective property of things I cannot claim that my finding the flowering cherry beautifuyl is appropriate to the flowering cherry just because it is, in fact, beautiful. [..] there are <strong>no test criteria</strong> I can employ to justify my claim. <span class="citation" data-cites="ginsborgAestheticNormativityKnowing2020">(<a href="#/references" role="doc-biblioref" onclick="">Ginsborg 2020, 57–58</a>)</span></p>
+<p>I take my own pleasurable response to the object to be <strong>appropriate to or called-for by the object</strong>. […] But […] since beauty is not an objective property of things I cannot claim that my finding the flowering cherry beautyful is appropriate to the flowering cherry just because it is, in fact, beautiful. [..] there are <strong>no test criteria</strong> I can employ to justify my claim. <span class="citation" data-cites="ginsborgAestheticNormativityKnowing2020">(<a href="#/references" role="doc-biblioref" onclick="">Ginsborg 2020, 57–58</a>)</span></p>
 </blockquote>
 </div><div class="column" style="width:30%;">
 <p><img data-src="images/Bernard-Williams.jpg" style="width:80.0%"></p>
@@ -548,31 +553,13 @@ Korbinian Friedl
 
 --- -->
 </section>
-<section id="arguing-about-tec" class="slide level2">
-<h2>Arguing about TEC</h2>
-<div class="columns">
-<div class="column" style="width:65%;">
-<p>Consider the following kinds of conversations:</p>
-<ol type="1">
-<li>“Say about Trump what you will, but the way he acted under fire was really courageous.”<br>
-“That wasn’t courage, that was vanity!”<br>
-“How can it be vanity? He was literally risking his life!”<br>
-“Yes, but not for anyone else’s sake. Only for the sake of his own public image. That’s vanity.”<br>
-<span style="color: grey;">“Well, it was courageous <em>for me</em>.”</span></li>
-</ol>
-</div><div class="column" style="width:35%;">
-<p><img data-src="images/trump.jpeg" style="width:100.0%"></p>
-</div></div>
-</section>
 <section id="arguing-about-aesthetic-judgments" class="slide level2">
 <h2>Arguing about Aesthetic Judgments</h2>
 <div class="columns">
 <div class="column" style="width:65%;">
-<ol start="2" type="1">
-<li>“He plays beautifully, doesn’t he?”<br>
+<p>“He plays beautifully, doesn’t he?”<br>
 “How can you say that? There was no line, no structure, no idea what the music was about. He’s simply an impressive colorist.”<br>
-<span style="color: grey;">“Well, it was beautiful <em>for me</em>.”</span></li>
-</ol>
+<span style="color: grey;">“Well, it was beautiful <em>for me</em>.”</span></p>
 <p><span class="citation" data-cites="cavell2002AestheticProblems">(<a href="#/references" role="doc-biblioref" onclick="">Cavell 2002, 91</a>)</span></p>
 </div><div class="column" style="width:35%;">
 <div class="quarto-figure quarto-figure-center">
@@ -583,6 +570,19 @@ Korbinian Friedl
 </div>
 </div></div>
 </section>
+<section id="arguing-about-tec" class="slide level2">
+<h2>Arguing about TEC</h2>
+<div class="columns">
+<div class="column" style="width:65%;">
+<p>“Say about Trump what you will, but the way he acted under fire was really courageous.”<br>
+“That wasn’t courage, that was vanity!”<br>
+“How can it be vanity? His ear was pierced by a bullet! He was literally risking his life!”<br>
+“Yes, but not for anyone else’s sake. Only for the sake of his own public image. That’s vanity.”<br>
+<span style="color: grey;">“Well, it was courageous <em>for me</em>.”</span></p>
+</div><div class="column" style="width:35%;">
+<p><img data-src="images/trump.jpeg" style="width:100.0%"></p>
+</div></div>
+</section>
 <section id="judgments-involving-tec" class="slide level2">
 <h2>Judgments Involving TEC</h2>
 <div class="columns">
@@ -590,7 +590,7 @@ Korbinian Friedl
 <ul>
 <li>Judgments containing TEC share some similarities with aesthetic judgments
 <ul>
-<li>Both cannot be <em>proven</em> in the way empirical judgments can; but both require and allow for argument, with refusal to respond to relevant arguments coming at a price.</li>
+<li>Both cannot be proven or tested in the way empirical judgments (sometimes) can; but both require and allow for argument, with refusal to respond to relevant arguments coming at a price.</li>
 </ul></li>
 <li>They cannot be reduced to observation judgments, if we follow <span class="citation" data-cites="mcdowell1981noncognitivism">McDowell (<a href="#/references" role="doc-biblioref" onclick="">1981</a>)</span> in rejecting <em>Descriptive Equivalence</em><sup>1</sup>:</li>
 </ul>
@@ -643,8 +643,9 @@ Korbinian Friedl
 <li>In any case, for paradigm TEC, an observation or even a descriptive fact cannot usually (dis)prove sentences involving them.</li>
 </ul>
 </section>
-<section id="sufficient-leitgeb-basis" class="slide level2">
-<h2>Sufficient Leitgeb basis</h2>
+<section id="how-to-parametrize-nvc-to-acccount-for-tec" class="slide level2">
+<h2>How to Parametrize <span class="math inline">\(NVC\)</span> to Acccount for TEC</h2>
+<h3 id="sufficient-leitgeb-basis">Sufficient Leitgeb Basis</h3>
 <ul>
 <li>Can we adapt the concept of a “sufficient basis” from <em>Testability and Meaning</em> to frame our discussion?</li>
 </ul>
@@ -656,8 +657,9 @@ Korbinian Friedl
 </ul>
 <p>If <span class="math inline">\(S_M\)</span> is the set of meaningful sentences in <span class="math inline">\(\mathcal{L}\)</span> and <span class="math inline">\(\mathcal{P}\)</span> a set of probability measures on <span class="math inline">\(\mathcal{L}\)</span>, call <span class="math inline">\(S_B\subseteq \mathcal{L}\)</span> a <em><span class="math inline">\(\mathcal{P}\)</span>-sufficient Leitgeb basis</em> iff <span class="math display">\[NVC(\mathcal{L}, S_B, S_M, \mathcal{P}) = 1\]</span></p>
 </section>
-<section id="sufficient-leitgeb-basis-if-tec-are-meaningful" class="slide level2">
-<h2>Sufficient Leitgeb Basis if TEC are meaningful</h2>
+<section class="slide level2">
+
+<h3 id="sufficient-leitgeb-basis-if-tec-are-meaningful">Sufficient Leitgeb Basis if TEC are Meaningful</h3>
 <p>Hypothesis:</p>
 <ul>
 <li>If <span class="math inline">\(\mathcal{P}\)</span> makes weak descriptive equivalence false, and if <span class="math inline">\(S_M\)</span> contains TEC, then any <span class="math inline">\(\mathcal{P}\)</span>-sufficient Leitgeb basis will have to include some sentences expressing aesthetic judgments.
@@ -674,6 +676,15 @@ Korbinian Friedl
 <li class="fragment">My suspicion is yes but I do not know yet.</li>
 </ul>
 </section></section>
+<section id="summary" class="title-slide slide level1 center">
+<h1>Summary</h1>
+<ul>
+<li>Leitgeb formulates a probabilistic, parametric version of the verifiability criterion.</li>
+<li>It is not clear what “probability” means here and whether he can have his cake (capture pragmatic meaning) and eat it too (assign probabilities to potentially meaningless sentences).</li>
+<li>Concerning TEC, I suggest that either weak descriptive equivalence must hold or some aesthetic judgments must be primitively meaningful.</li>
+</ul>
+</section>
+
 <section id="references" class="title-slide slide level1 smaller scrollable">
 <h1>References</h1>
 

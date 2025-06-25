@@ -223,7 +223,7 @@ Carnap in *The Unity of Science*:
 Where 
 
 - $\mathcal{L}$ is a language of declarative sentences (assumed to be at least closed under negation, conjunction and disjunction), 
-- $\mathcal{S}_O, \mathcal{S_2}$ are subsets of $\mathcal{L}$ and 
+- $\mathcal{S}_O, \mathcal{S_N}$ are subsets of $\mathcal{L}$ and 
 - $\mathcal{P}$ is a subset of $Prob(\mathcal{L})$, the set of epistemic probability measures on $\mathcal{L}$ (i.e. maps $\mathcal{L} \rightarrow [0,1]$ which assign value 1 to logical truths and are (finitely) additive for logically inconsistent members of $\mathcal{L}$). 
 (Dis)confirmation is explicated as probability in- or decrease upon conditionalization.
 
@@ -244,7 +244,7 @@ Where
 
 ::: {.column width="60%"}
 
-- For $A, B \in \mathcal{L}$ and $\mathcal{P}\in Prob(\mathcal{L})$, $A$ (dis)confirms $B$ relative to $P$ iff $P(B\mid A)>P(B)$ (respectively $P(B\mid A)<P(B)$)
+- For $A, B \in \mathcal{L}$ and $P\in Prob(\mathcal{L})$, $A$ (dis)confirms $B$ relative to $P$ iff $P(B\mid A)>P(B)$ (respectively $P(B\mid A)<P(B)$)
 - For $B \in \mathcal{L}$, $\mathcal{S}_O \subseteq \mathcal{L}$, $\mathcal{P}\subseteq Prob(\mathcal{L})$, $B$ is (dis)confirmable by members of $\mathcal{S}_O$ relative to $\mathcal{P}$ iff there are $A\in\mathcal{S}_O$, $P\in\mathcal{P}$, such that $A$ (dis)confirms $B$ relative to $P$.
 
 :::
@@ -301,7 +301,7 @@ Where
 ::: {.incremental}
 - To test it's meaningfulness, we have to parametrize $NVC$.
   - Let $\mathcal{S}_N = \{A\}$
-  - Empiricists will insist on $\mathcal{S}_O$ being a set of observation sentences, including, say, (B) "The temperature of physical body $b$ at place $s$ and time $t$ is $d$ degrees centigrade", and the like.
+  - Empiricists will insist on $\mathcal{S}_O$ being a set of observation sentences, including, say, (C) "The temperature of physical body $b$ at place $s$ and time $t$ is $d$ degrees centigrade", and the like.
   - Let $\mathcal{P}$ be the set of rational degree-of-belief assignments available to the community of logical empiricists.
 - $\rightarrow$ (A) is ruled meaningless by NVC
 - But Oxford idealists might parametrize differently.
@@ -321,7 +321,7 @@ Where
 ## Questions for Leitgeb's NVC
 
 - What should we have in mind when NVC speaks of 'probability'?
-- Can NVC account for the meaningfulness of TEC?
+- Can $NVC$ help us discuss the specific way in which TEC are meaningful?
 
 
 # What Does it Mean to Assign a Probability to a Sentence?
@@ -335,7 +335,6 @@ Where
 ---
 
 ## Requirements for a Suitable Concept of Probability
-
 
 ::: {.incremental}
 - Leitgeb contrasts his NVC with Skyrms' Bayesian Verifiability Criterion as a test for *knowability*.
@@ -363,9 +362,9 @@ Where
 - Frequentism won't help because
 	- a) cannot serve as a guide in life
 	- b) likewise seems to presuppose meaningfulness in the OVC sense
-	- (Also note that it would be directly contrary to @carnap1936testability [p.427] who explicitly rejected a proposal by @reichenbach1935induktion [p. 271 ff.] to equate confirmation with the limit of relative frequency.
+	- (Also note that it would be directly contrary to @carnap1936testability [p.427] who explicitly rejected a proposal by @reichenbach1935induktion [p. 271 ff.] to equate confirmation with the limit of relative frequency.)
 
-We need a concept of probability which can serve as a guide in life (to preserve the pragmatist appeal of Leitgeb's semantics)---i.e. can be called probability$_1$ in Carnap's [-@carnapTwoConceptsProbability1945] diction---and can make sense of assigning probability in a purely formal way, independent of the meaning of the elements of $\mathcal{L}$
+We need a concept of probability which can serve as a guide in life (to preserve the pragmatist appeal of Leitgeb's semantics)---i.e. can be called probability$_1$ in Carnap's [-@carnapTwoConceptsProbability1945] diction---and can make sense of assigning probability in a purely formal way, independent of the meaning of the elements of $\mathcal{L}$.
 
 
 # Inductive Logic
@@ -422,19 +421,20 @@ Assigns probabilities without asking what the statements to which probabilities 
 
 ## TEC and Aesthetic Judgment
 
+
 :::: {.columns}
 
 ::: {.column width="70%"}
 
-My frame for thinking about TEC can be sketched by the following two quotes from Bernard Williams and Hannah Ginsborg:
+How are TEC different and similar to observation terms?
 
-Bernard Williams on the difference between ethical and theoretical disagreement:
+- Bernard Williams on the difference between ethical and theoretical disagreement:
 
 > In a scientific inquiry, there should ideally be convergence on an answer, where the best **explanation** of the convergence involves the idea that the answer represents **how things are**; in the area of the ethical [...], there is no such coherent hope. [@WilliamsBernard2011Eatl, p. 150]
 
-And Hannah Ginsborg on the normativity of aesthetic judgments:
+- And Hannah Ginsborg on the normativity of aesthetic judgments:
 
-> I take my own pleasurable response to the object to be **appropriate to or called-for by the object**. [...] But [...] since beauty is not an objective property of things I cannot claim that my finding the flowering cherry beautifuyl is appropriate to the flowering cherry just because it is, in fact, beautiful. [..] there are **no test criteria** I can employ to justify my claim. [@ginsborgAestheticNormativityKnowing2020, p. 57-8]
+> I take my own pleasurable response to the object to be **appropriate to or called-for by the object**. [...] But [...] since beauty is not an objective property of things I cannot claim that my finding the flowering cherry beautyful is appropriate to the flowering cherry just because it is, in fact, beautiful. [..] there are **no test criteria** I can employ to justify my claim. [@ginsborgAestheticNormativityKnowing2020, p. 57-8]
 
 :::
 
@@ -469,30 +469,6 @@ And Hannah Ginsborg on the normativity of aesthetic judgments:
 
 --- -->
 
-## Arguing about TEC
-
-:::: {.columns}
-
-::: {.column width="65%"}
-
-Consider the following kinds of conversations:
-
-1. "Say about Trump what you will, but the way he acted under fire was really courageous."\
-    "That wasn't courage, that was vanity!"\
-    "How can it be vanity? He was literally risking his life!"\
-    "Yes, but not for anyone else's sake. Only for the sake of his own public image. That's vanity."\
-    ["Well, it was courageous *for me*."]{style="color: grey;"}
-
-
-:::
-
-::: {.column width="35%"}
-![](images/trump.jpeg){width=100%}
-:::
-
-::::
-
----
 
 ## Arguing about Aesthetic Judgments
 
@@ -501,7 +477,7 @@ Consider the following kinds of conversations:
 ::: {.column width="65%"}
 
 
-  2. "He plays beautifully, doesn't he?"\
+  "He plays beautifully, doesn't he?"\
   "How can you say that? There was no line, no structure, no idea what the music was about. He's simply an impressive colorist."\
   ["Well, it was beautiful *for me*."]{style="color: grey;"}
 
@@ -519,6 +495,31 @@ Consider the following kinds of conversations:
 
 ---
 
+## Arguing about TEC
+
+:::: {.columns}
+
+::: {.column width="65%"}
+
+
+ "Say about Trump what you will, but the way he acted under fire was really courageous."\
+"That wasn't courage, that was vanity!"\
+"How can it be vanity? His ear was pierced by a bullet! He was literally risking his life!"\
+"Yes, but not for anyone else's sake. Only for the sake of his own public image. That's vanity."\
+["Well, it was courageous *for me*."]{style="color: grey;"}
+
+
+:::
+
+::: {.column width="35%"}
+![](images/trump.jpeg){width=100%}
+:::
+
+::::
+
+---
+
+
 
 ## Judgments Involving TEC
 
@@ -527,7 +528,7 @@ Consider the following kinds of conversations:
 ::: {.column width="65%"}
 
 - Judgments containing TEC share some similarities with aesthetic judgments
-  - Both cannot be *proven* in the way empirical judgments can; but both require and allow for argument, with refusal to respond to relevant arguments coming at a price.
+  - Both cannot be proven or tested in the way empirical judgments (sometimes) can; but both require and allow for argument, with refusal to respond to relevant arguments coming at a price.
 - They cannot be reduced to observation judgments, if we follow @mcdowell1981noncognitivism in rejecting *Descriptive Equivalence*[^1]:
 
 >*Descriptive Equivalence*: For every thick term or concept, someone has or could acquire an independently intelligible purely non-evaluative description with the same extension. [@sep-thick-ethical-concepts]
@@ -585,7 +586,9 @@ Note: We can reject strong descriptive equivalence and still have NVC assert the
 - The case for the indispensability of slurs also seems weaker than for other TEC. A description will rarely be *inadeqate* for a lack of slurs.
 - In any case, for paradigm TEC, an observation or even a descriptive fact cannot usually (dis)prove sentences involving them.
 
-## Sufficient Leitgeb basis
+## How to Parametrize $NVC$ to Acccount for TEC
+
+### Sufficient Leitgeb Basis
 
 - Can we adapt the concept of a "sufficient basis" from *Testability and Meaning* to frame our discussion?
 
@@ -595,7 +598,9 @@ Note: We can reject strong descriptive equivalence and still have NVC assert the
 
 If $S_M$ is the set of meaningful sentences in $\mathcal{L}$ and $\mathcal{P}$ a set of probability measures on $\mathcal{L}$, call $S_B\subseteq \mathcal{L}$ a *$\mathcal{P}$-sufficient Leitgeb basis* iff $$NVC(\mathcal{L}, S_B, S_M, \mathcal{P}) = 1$$ 
 
-## Sufficient Leitgeb Basis if TEC are meaningful
+---
+
+### Sufficient Leitgeb Basis if TEC are Meaningful
 
 
 Hypothesis:
@@ -610,5 +615,11 @@ Hypothesis:
 - Will Inductive Logic generally lead to $\mathcal{P}$ which make weak descriptive equivalence false?
 - My suspicion is yes but I do not know yet.
 :::
+
+# Summary
+- Leitgeb formulates a probabilistic, parametric version of the verifiability criterion.
+- It is not clear what "probability" means here and whether he can have his cake (capture pragmatic meaning) and eat it too (assign probabilities to potentially meaningless sentences).
+- Concerning TEC, I suggest that either weak descriptive equivalence must hold or some aesthetic judgments must be primitively meaningful.
+
 
 # References
