@@ -81,12 +81,16 @@ include-in-header:
 
 ## The Self-Undercutting Problem
 
-**Issue**: OVC is itself not confirmable or disconfirmable
+
 
 ::: {.incremental}
-- But: Principle of tolerance:
-  - There is no unique "correct" framework---no unique correct language or logic. OVC is one way in which we can choose to structure our scientific discourse.
-- But honestly I find the self-application 
+
+**Issue**: OVC is itself not confirmable or disconfirmable
+
+But I find this issue comparetively boring.
+
+<!-- - But: Principle of tolerance:ß
+  - There is no unique "correct" framework---no unique correct language or logic. OVC is one way in which we can choose to structure our scientific discourse. -->
 :::
 
 ---
