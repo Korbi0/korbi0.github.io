@@ -54,13 +54,13 @@ include-in-header:
 
 **Excludes some scientific statements:**
 
-- Universal statements (laws of nature) are not verifiable
-- Only single instances can be checked, never all instances
+- Universal statements (laws of nature) are not verifiable.
+- Only single instances can be checked, never all instances.
 
 **Even mundane statements potentially problematic:**
 
 - "There is a white sheet of paper on the table"
-- Even this has potentially infinitely many testable implications
+- Even this has potentially infinitely many testable implications.
 
 :::
 
@@ -138,10 +138,10 @@ Carnap in *The Unity of Science*:
 
 **Factual statements presuppose values:**
 
-- Coherence, comprehensiveness, simplicity, instrumental efficacy
-- Part of our idea of **cognitive flourishing** and **eudaimonia**
+- Coherence, comprehensiveness, simplicity, instrumental efficacy.
+- Part of our idea of **cognitive flourishing** and **eudaimonia**.
 
-**Implication**: Some values must be objective (unless science is merely subjective)
+**Implication**: Some values must be objective (unless science is merely subjective).
 :::
 
 ::: {.column width="30%"}
@@ -226,7 +226,7 @@ Carnap in *The Unity of Science*:
 ### Disentangling and Verificationism
 
 - Verificationism seems to commit us to something like Descriptive Equivalence, and to statements involving [TEC](#TEC) being a package deal of two statements, really: 
-  - A (cognitively meaningful) statement expressing the coextensional descriptive content; 
+  - A (cognitively meaningful) statement expressing the coextensive descriptive content; 
   - and a (cognitively meaningless) approval or disapproval of the situation.
 - But many (e.g. Putnam, Williams, McDowell) are sceptical about *Descriptive Equivalence*.
 - [More on this later](#tec-and-nvc). 
@@ -262,7 +262,7 @@ Carnap in *The Unity of Science*:
 Where 
 
 - $\mathcal{L}$ is a language of declarative sentences (assumed to be at least closed under negation, conjunction and disjunction), 
-- $\mathcal{S}_O, \mathcal{S_N}$ are subsets of $\mathcal{L}$ and 
+- $\mathcal{S}_O, \mathcal{S}_N$ are subsets of $\mathcal{L}$ and 
 - $\mathcal{P}$ is a subset of $Prob(\mathcal{L})$, the set of epistemic probability measures on $\mathcal{L}$ (i.e. maps $\mathcal{L} \rightarrow [0,1]$ which assign value 1 to logical truths and are (finitely) additive for logically inconsistent members of $\mathcal{L}$). 
 (Dis)confirmation is explicated as probability in- or decrease upon conditionalization.
 
@@ -309,12 +309,12 @@ Where
 :::: {.columns}
 
 ::: {.column width="70%"}
-**Sentence**: (T) "At the Miami Open 2022 Alcaraz won 35 out of 50 drop shots"
+**Sentence**: (T) "At the Miami Open 2022 Alcaraz won 35 out of 50 drop shots."
 
 
 ::: {.incremental}
-- For someone who knows what a drop shot is, learning (T) will increase their credence in a sentence like (B) "At the Miami Open 2022 Alcaraz won 35 out of 50 attempts at hitting the ball so lightly that it drops immediately behind the net." So it's clearly meaningful to them.
-- For someone who doesn't know, maybe it doesn't, so in that sense (T) is not meaningful for them (according to Bayesian dynamic semantics)
+- For someone who knows what a drop shot is, learning (T) will increase their credence in a sentence like (B) "At the Miami Open 2022 Alcaraz won 35 out of 50 attempts at hitting the ball so lightly that it drops immediately behind the net." So (T) is meaningful to them.
+- For someone who doesn't know, maybe it doesn't, so in that sense (T) is not meaningful for them (according to Bayesian dynamic semantics).
 - (But note that having a credence in T still makes sense: It can still make sense to bet on T.)
 
 
@@ -360,12 +360,12 @@ Where
 ## Questions for Leitgeb's NVC
 
 - What should we have in mind when NVC speaks of 'probability'?
-- Can $NVC$ help us discuss the specific way in which TEC are meaningful?
+- Can NVC help us discuss the specific way in which TEC are meaningful?
 
 
 # What Does it Mean to Assign a Probability to a Sentence?
 
-- The picture is this: We have a set of sentences whose meaning is not in doubt, $\mathcal{S}_O$ (e.g. empirical sentences). Then a set of sentences $\mathcal{S}_N$ whose meaningfulness is in doubt.
+- The picture is this: We have a set of sentences whose meaning is not in doubt, $\mathcal{S}_O$ (e.g. observation sentences). Then a set of sentences $\mathcal{S}_N$ whose meaningfulness is in doubt.
 - If all of the sentences in $\mathcal{S}_N$ can be (dis)confirmed by sentences in $\mathcal{S}_O$, then they are meaningful.
 - But in order to know whether $P(B\mid A)>P(B)$, I need to already be assigning a probability to $B$.
 - **What does it mean to assign a probability to a sentence I am not even sure is meaningful?**
@@ -387,7 +387,7 @@ Where
 ## So: Let's be Subjective Bayesians then?
 
 - Assigning a probability $c$ to $\varphi$ means being willing to bet on $\varphi$ at odds $c:1-c$
-  - But to enter into a bet, I need to know how the bet is going to be resolved
+  - But to enter into a bet, I need to know how the bet is going to be resolved.
   - Or, at the very least, I need to trust that there \textit{is} a procedure for resolving it.
   - A bet is a bet on $\varphi$ iff: The person who bet on $\varphi$ gets the pot if and only if $\varphi$.
   - This is possible only if there is  procedure for verifying or falsifying $\varphi$.
@@ -473,7 +473,7 @@ How are TEC different and similar to observation terms?
 
 - And Hannah Ginsborg on the normativity of aesthetic judgments:
 
-> I take my own pleasurable response to the object to be **appropriate to or called-for by the object**. [...] But [...] since beauty is not an objective property of things I cannot claim that my finding the flowering cherry beautyful is appropriate to the flowering cherry just because it is, in fact, beautiful. [..] there are **no test criteria** I can employ to justify my claim. [@ginsborgAestheticNormativityKnowing2020, p. 57-8]
+> I take my own pleasurable response to the object to be **appropriate to or called-for by the object**. [...] But [...] since beauty is not an objective property of things I cannot claim that my finding the flowering cherry beautiful is appropriate to the flowering cherry just because it is, in fact, beautiful. [..] there are **no test criteria** I can employ to justify my claim. [@ginsborgAestheticNormativityKnowing2020, p. 57-8]
 
 :::
 
@@ -572,7 +572,7 @@ How are TEC different and similar to observation terms?
 
 >*Descriptive Equivalence*: For every thick term or concept, someone has or could acquire an independently intelligible purely non-evaluative description with the same extension. [@sep-thick-ethical-concepts]
 
-- How does this work on Leitgeb's NVC?
+- Can we capture this discussion with NVC?
 
 
 
@@ -588,7 +588,7 @@ How are TEC different and similar to observation terms?
 
 ## Descriptive Equivalence in Leitgeb's Framework
 
-Consider a language $\mathcal{L}$ containing TEC and set of probability measures $\mathcal{P}$. We can formulate the following versions of *descriptive equivalence*:
+Consider a language $\mathcal{L}$ containing TEC and a set of probability measures $\mathcal{P}$. We can formulate the following versions of *descriptive equivalence*:
 
 - Strong: For every thick term or concept $T$, there is a formula $\varphi(x)$ in $\mathcal{L}$ containing only non-evaluative predicates such that for *every* $P \in \mathcal{P}$, constant $c$ and sentence $A \in \mathcal{L}$, $P(T(c) \mid A) = P(\varphi(c) \mid A)$.
 - Weak: For every thick term or concept $T$, there is a formula $\varphi(x)$ in $\mathcal{L}$ containing only non-evaluative predicates such that for *some* $P \in \mathcal{P}$, $P(T(c) \mid \varphi(c)) \neq P(T(c))$.
@@ -625,7 +625,7 @@ Note: We can reject strong descriptive equivalence and still have NVC assert the
 - The case for the indispensability of slurs also seems weaker than for other TEC. A description will rarely be *inadeqate* for a lack of slurs.
 - In any case, for paradigm TEC, an observation or even a descriptive fact cannot usually (dis)prove sentences involving them.
 
-## How to Parametrize $NVC$ to Acccount for TEC
+## How to Parametrize NVC to Acccount for TEC
 
 ### Sufficient Leitgeb Basis
 
@@ -642,8 +642,6 @@ If $S_M$ is the set of meaningful sentences in $\mathcal{L}$ and $\mathcal{P}$ a
 ### Sufficient Leitgeb Basis if TEC are Meaningful
 
 
-Hypothesis:
-
 - If $\mathcal{P}$ makes weak descriptive equivalence false, and if $S_M$ contains TEC, then any $\mathcal{P}$-sufficient Leitgeb basis will have to include some sentences expressing (quasi&#8209;)aesthetic judgments.
   - N.B.: If we follow McDowell, our $\mathcal{P}$ should definitely make strong descriptive equivalence false. I don't know yet whether we would be committed to rejecting weak descriptive equivalence as well.
 - This would be a problem for empiricists (if they want a basis consisting of observation sentences and if Kant (and Kantians like Ginsborg and McDowell) are right about aesthetic judgment having mere subjective generality for lack of picking up on any observable property of the object).
@@ -658,7 +656,7 @@ Hypothesis:
 # Summary
 - Leitgeb formulates a parametric, probabilistic version of the verifiability criterion.
 - It is not clear what "probability" means here and whether he can have his cake (connect to pragmatic meaning) and eat it too (assign probabilities to potentially meaningless sentences).
-- Concerning TEC, I suggest that $NVC$ implies that either weak descriptive equivalence must hold or some (quasi&#8209;)aesthetic judgments must be primitively meaningful.
+- Concerning TEC, I suggest that NVC implies that either weak descriptive equivalence must hold or some (quasi&#8209;)aesthetic judgments must be primitively meaningful.
 
 
 # References
