@@ -6,7 +6,7 @@
   right: 0px;
   width: 100px;  /* adjust size as needed */
   height: 100px; /* adjust size as needed */
-  background-image: url("images/qr_icon.png");
+  background-image: url("images/plain_qrcode.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
