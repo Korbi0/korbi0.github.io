@@ -1,0 +1,4 @@
+
+- Distinction between manifest and scientific image, and emphasis that this is about the scientific image
+- Distinction between acts where both doing and refraining from $A$ is allowed and acts where this is not the case.
+	- We get perhaps a reverse kind of dual control, but one which is less problematic than the Ross & Schroeder one: *Whether* both doing and refraining from $A$ is to be settled by reasoning. But since the economy in belief is in general considered to be the less demanding one, and since the purpose of this kind of dual control never was to simplify decision making (but to account for the fact that practical reasons sometimes do bear on our actions), no self-contradiction arises in the way it does for Ross & Schroeder
