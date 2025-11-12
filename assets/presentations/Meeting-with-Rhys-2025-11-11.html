@@ -8,7 +8,7 @@
 
 <meta name="author" content="Korbinian Friedl">
 
-<title>Korbi-Rhys-Meeting 2025-11-11</title>
+<title>Korbi-Rhys-Meeting 2025-11-12</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -2307,7 +2307,11 @@ window.Quarto = {
   <li><a href="#pre-meeting-notes" id="toc-pre-meeting-notes" class="nav-link active" data-scroll-target="#pre-meeting-notes"><span class="header-section-number">1</span> Pre-meeting notes</a>
   <ul class="collapse">
   <li><a href="#pedantic-logic-note" id="toc-pedantic-logic-note" class="nav-link" data-scroll-target="#pedantic-logic-note"><span class="header-section-number">1.1</span> Pedantic logic note</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">1.2</span> References</a></li>
+  </ul></li>
+  <li><a href="#meeting-notes" id="toc-meeting-notes" class="nav-link" data-scroll-target="#meeting-notes"><span class="header-section-number">2</span> Meeting notes</a>
+  <ul class="collapse">
+  <li><a href="#to-dos" id="toc-to-dos" class="nav-link" data-scroll-target="#to-dos"><span class="header-section-number">2.1</span> To-dos</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">2.2</span> References</a></li>
   </ul></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Meeting-with-Rhys-2025-11-11.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
@@ -2316,7 +2320,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Korbi-Rhys-Meeting 2025-11-11</h1>
+<h1 class="title">Korbi-Rhys-Meeting 2025-11-12</h1>
 </div>
 
 
@@ -2376,13 +2380,56 @@ window.Quarto = {
 <p>You use <span class="math inline">\(\phi=\top\)</span> to express ‘<span class="math inline">\(\phi\)</span> is true’, right? Is this established notation in causal modelling? Because in philosophical logic you wouldn’t write that; it would be considered an infelicitous mix-up of object language and metalanguage.</p>
 <p><span class="math inline">\(\top\)</span> is usually used as an element of the object language, to denote a tautological formula, whereas saying that a formula is true is in general only possible in the meta-language. Also propositions can be equivalent (<span class="math inline">\(\Leftrightarrow\)</span>) but not “identical” (<span class="math inline">\(=\)</span>); terms can be identical (as in <span class="math inline">\(d=c\)</span>), but <span class="math inline">\(\top\)</span> is not a term (but a sentence). To say of a formula <span class="math inline">\(\phi\)</span> that <span class="math inline">\(\phi \Leftrightarrow \top\)</span> would be to say that it is a tautology. Truth <em>cannot</em> be a predicate in the object language of a sufficiently strong theory (anything that can do Robinson arithmetic at least, because then you get Gödel numbering and therefore self-referentiality, which interacts problematically with a truth-predicate; cf. <span class="citation" data-cites="Tarski1956-TARTCO">Tarski (<a href="#ref-Tarski1956-TARTCO" role="doc-biblioref">1956</a>)</span>). In the object-language, we would just write <span class="math inline">\(\phi\)</span> if <span class="math inline">\(\phi\)</span> is the case. When you write e.g. ‘agent <span class="math inline">\(i\)</span> observes that <span class="math inline">\(\phi\)</span> is true’, I think you can just say ‘agent <span class="math inline">\(i\)</span> observes <span class="math inline">\(\phi\)</span>’ and write for the corresponding decision e.g. <span class="math inline">\(D^i_{\phi}\)</span>, and for the decision under the observation that <span class="math inline">\(\phi\)</span> is false <span class="math inline">\(D^i_{\neg \phi}\)</span>, in the meta-language you would write <span class="math inline">\(\vDash \phi\)</span> if the system asserts that <span class="math inline">\(\phi\)</span> is true; and if you want to say something like ‘in setting <span class="math inline">\(\mathbf{E}=\mathbf{e}\)</span> and policy profile <span class="math inline">\(\mathbf{\pi}\)</span>, <span class="math inline">\(X=x\)</span> is true’, you might write <span class="math inline">\(X(\mathbf{\pi}, \mathbf{e}) \vDash X=x\)</span></p>
 </section>
-<section id="references" class="level2 unnumbered" data-number="1.2">
+</section>
+<section id="meeting-notes" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Meeting notes</h1>
+<ul>
+<li><p>Rhys:</p>
+<ul>
+<li>Reason not to use his existing work on intention etc: The theory isn’t general in the way that it doesn’t incorporate the objective/subjective distinction
+<ul>
+<li>We talked for a while about how you <em>would</em> extend it to the subjective model</li>
+<li>In the end we landed on the following as maybe the most promising path:
+<ul>
+<li>The subjective model lets the agent ask and answer questions about themselves like “If someone successfully did trick me into (doing something like) observing <span class="math inline">\(\phi\)</span>, what would my decision be? If someone successfully did trick me into (doing something like) observing <span class="math inline">\(\neg \phi\)</span>, what would my decision be?”</li>
+<li>This gives the (subjective) answer to the “responding to” part of the definition of belief.</li>
+<li><strong>But</strong> we also agreed that extending the belief-stuff in this way might take weeks on its own and is probably not worth doing because we want to talk about other things in this paper (goal misgeneralization).</li>
+<li>Some musings on it can go into the appendix; and might also be a follow-up paper.</li>
+</ul></li>
+</ul></li>
+<li>would be nice to have a philosophically well-grounded notion of honesty. As of right now, we are kinda pulling things out of our arse</li>
+<li>We should not introduce a lot of terminology that we are not going to use; and we maybe want to focus on things like goal misgeneralization which arise even for the argmax definition of honesty</li>
+</ul></li>
+<li><p>Ok we want to focus on the argmax thing; to sidestep counterexamples like the above mushroom one, we make explicit that our questions are always questions about the agent’s “best guess” for the value of <span class="math inline">\(C\)</span>, where the best guess is not necessarily what the agent <em>believes</em>, but which of the elements of the domain they assign highest credence to.</p></li>
+<li><p>Also say that in cases where there is more than one argmax, honesty requires reporting all the elements of the argmax set (“Will this coin come up heads or tails?” -&gt; {“heads, tails”})</p></li>
+<li><p>Further thing go keep in mind:</p>
+<ul>
+<li>If you have multiple decisions at a time, you can influence what your future credences/beliefs will be, and you can thereby influence which values you have highest credence, and thus influence the answers you are going to give; even if you are restricted to highest-credence answers.</li>
+</ul></li>
+<li><p>Overall</p>
+<ul>
+<li>it is very hard to even specify the thing that we want, in the sense of “what is the correct notion of honesty?”</li>
+<li>but even with flawed notions of honesty, there are still so many problems that we want to highlight that it is worth focussing on the simplest intuitive notion of honesty so that we can communicate some of the very difficult problems that arise even there (goal misgeneralization, ontology mismatch)</li>
+</ul></li>
+</ul>
+<section id="to-dos" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="to-dos"><span class="header-section-number">2.1</span> To-dos</h2>
+<ul>
+<li>try to think about the notion correspondence between subjective and objective model (vis a vis capability?)
+<ul>
+<li>How does Richens do it</li>
+<li>How does Bellot do it</li>
+<li>see also our previous notes on this [[Meeting with Rhys 2025-11-08]]</li>
+</ul></li>
+</ul>
+</section>
+<section id="references" class="level2 unnumbered" data-number="2.2">
 
 
 </section>
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">1.2 References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">2.2 References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-Tarski1956-TARTCO" class="csl-entry" role="listitem">
 Tarski, Alfred. 1956. <span>“The Concept of Truth in Formalized Languages.”</span> In <em>Logic, Semantics, Metamathematics</em>, edited by Alfred Tarski, 152–278. Clarendon Press.
 </div>
