@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Meeting Notes
+permalink: /meeting_notes/
 ---
 
 # ELK
