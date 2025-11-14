@@ -10,3 +10,7 @@ sidebar_link: false
 
 ## IVC
 [Verifiability, Probability, Thick Ethical Concepts]({% link assets/presentations/ivc_presentation/ivcpresentation.html %})
+
+
+## WIP ELK
+[ELK for LSE PhD Work in Progress]({% link assets/presentations/WIP_ELK_Presentation.html %})
