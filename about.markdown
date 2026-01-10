@@ -20,7 +20,7 @@ Before that, I studied Philosophy, Mathematics and Artificial Intelligence
 in Munich, Berlin, Berkeley and London.
 
 I am interested in a range of areas within Philosophy, and have in the past
-enjoyed reading and writing on Philosophy of A.I., Aesthetics, 
+enjoyed reading and writing on Philosophy of AI, Aesthetics, 
 Wittgenstein and Nietzsche. In my most recent MA at the Munich Center for Mathematical Philosophy,
 I focused on modal and non-classical logic(s) as well as social choice
 and behavioral judgement aggregation.
