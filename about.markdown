@@ -19,15 +19,15 @@ of explainability.
 Before that, I studied Philosophy, Mathematics and Artificial Intelligence
 in Munich, Berlin, Berkeley and London.
 
-
 I am interested in a range of areas within Philosophy, and have in the past
-enjoyed reading and writing on Phenomenology, Aesthetics, Virtue Ethics, 
-Wittgenstein and Nietzsche.
-In my most recent MA at the Munich Center for Mathematical Philosophy,
+enjoyed reading and writing on Philosophy of A.I., Aesthetics, 
+Wittgenstein and Nietzsche. In my most recent MA at the Munich Center for Mathematical Philosophy,
 I focused on modal and non-classical logic(s) as well as social choice
 and behavioral judgement aggregation.
 
 In my PhD, I am working on Social Epistemology, Social Choice and Political Philosophy.
 In particular, I am interested in the role prediction markets can play in areas
 of cooperative investigation and decision making.
+
+Additionally, I am working on an ARIA-funded project on [Mathematics for Safe AI](https://www.aria.org.uk/opportunity-spaces/mathematics-for-safe-ai/?cardId=formalising-mitigating-the-eliciting-latent-knowledge-problem).
 
