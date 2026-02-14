@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-sidebar_link: true
+sidebar_link: false
 ---
 <figure style="float: right; width: 300px;">
     <img src="about.assets/reading.jpg" alt="Me reading in a cafe" style="width: 100%;">
