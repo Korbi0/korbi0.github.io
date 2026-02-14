@@ -36,17 +36,17 @@ sidebar_link: true
 - Supervisor: [Dominik Finkelde](https://philpeople.org/profiles/dominik-finkelde)
 
 ## Publications
--  Korbinian Friedl, Georgios Rizos, Lukas Stappen, Madina Hasan, Lucia Specia, Thomas Hain and Björn W. Schuller. [*Uncertainty Aware Review Hallucination for Science Article Classification*](https://aclanthology.org/2021.findings-acl.443/). Findings of ACL: ACL-IJCNLP 2021.
+-  Korbinian Friedl, Georgios Rizos, Lukas Stappen, Madina Hasan, Lucia Specia, Thomas Hain and Björn W. Schuller. [*Uncertainty Aware Review Hallucination for Science Article Classification*](https://aclanthology.org/2021.findings-acl.443/). Findings of ACL: ACL-IJCNLP 2021
 
 ## Teaching
-See [here]({% link teaching.md %}).
+See [here]({% link teaching.md %})
 
 
 ---
 
 ### Grading Systems:
 - In Germany, grades are awarded on a scale from 1 to 5, with 1.0 being the best
-achieveable grade. The degrees I earned at Munich School of Philosophy, Humboldt University Berlin and the Munich Center for Mathematical Philosophy were graded on this scale.
-- At Imperial College, degrees were classified as "Pass", "Merit" or "Distinction", with Distinction being the highest achievable classification.
+achievable grade. The degrees I earned at Munich School of Philosophy, Humboldt University Berlin and the Munich Center for Mathematical Philosophy were graded on this scale
+- At Imperial College, degrees were classified as "Pass", "Merit" or "Distinction", with Distinction being the highest achievable classification
 - At UC Berkeley, the best achievable GPA was 4.0
 
