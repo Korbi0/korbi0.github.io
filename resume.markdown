@@ -4,7 +4,10 @@ title: CV
 permalink: /CV/
 sidebar_link: true
 ---
-[PDF]({% link assets/pdfs/CV/CV_website.pdf %})
+
+
+<!-- [PDF]({% link assets/pdfs/CV/CV_website.pdf %}) -->
+
 
 ## Education
 #### Munich Center for Mathematical Philosophy (at LMU Munich)
