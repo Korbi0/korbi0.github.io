@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '"Uncertainty Aware Review Hallucination for Science Article Classification" in <em>Findings of ACL</em>'
+title: '"Uncertainty Aware Review Hallucination for Science Article Classification" in <em>Findings of the Association for Computational Linguistics</em>'
 date: 2021-08-01
 categories: Research
 tags: [NLP, machine-learning, uncertainty]
