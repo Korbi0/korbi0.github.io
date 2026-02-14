@@ -3,7 +3,7 @@ layout: index
 title: Home
 ---
 
-<h1>About</h1>
+# About
 
 <figure style="float: right; width: 300px;">
     <img src="/about/about.assets/reading.jpg" alt="Me reading in a cafe" style="width: 100%;">
@@ -30,4 +30,4 @@ In my PhD, I am working on Social Epistemology, Social Choice and Political Phil
 In particular, I am interested in the role prediction markets can play in areas
 of cooperative investigation and decision making.
 
-Additionally, I am working on an ARIA-funded project on <a href="https://www.aria.org.uk/opportunity-spaces/mathematics-for-safe-ai/?cardId=formalising-mitigating-the-eliciting-latent-knowledge-problem">Mathematics for Safe AI</a>.
+Additionally, I am working on an ARIA-funded project on [Mathematics for Safe AI](https://www.aria.org.uk/opportunity-spaces/mathematics-for-safe-ai/?cardId=formalising-mitigating-the-eliciting-latent-knowledge-problem).
