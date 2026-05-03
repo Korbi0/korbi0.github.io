@@ -14,3 +14,6 @@ sidebar_link: false
 
 ## WIP ELK
 [ELK for LSE PhD Work in Progress]({% link assets/presentations/WIP_ELK_Presentation.html %})
+
+## Spring Term Reading Group Week 1
+[Spring Term Reading Group Week 1]({% link assets/presentations/presentation_internet.html %})
