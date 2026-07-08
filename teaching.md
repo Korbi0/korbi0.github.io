@@ -19,4 +19,10 @@ sidebar_link: true
 - [Alva Noë's theory of art in his book "Strange Tools"](https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=822030&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung&fbclid=IwAR1BXuoHPh1eHylMTngb53gCFXbqBAZmHqq_mKACwipEblckl1pnOChUJOA), Lektürekurs at LMU Munich, Fall 2020
 
 
+---
+
+### Awards
+- [LSE Class Teacher Award 2026](https://info.lse.ac.uk/staff/divisions/Eden-Centre/Education-awards/LSE-Class-Teacher-Awards)
+- [High Commendation for LSE Class Teacher Award 2025](https://info.lse.ac.uk/staff/divisions/Eden-Centre/Education-awards/LSE-Class-Teacher-Awards)
+
 
