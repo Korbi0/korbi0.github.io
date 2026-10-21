@@ -21,12 +21,12 @@ Before that, I studied Philosophy, Mathematics and Artificial Intelligence
 in Munich, Berlin, Berkeley and London.
 
 I am interested in a range of areas within Philosophy, and have in the past
-enjoyed reading and writing on, among other things, Aesthetics, Virtue Ethics,
-Wittgenstein and Nietzsche. In my most recent MA at the Munich Center for Mathematical Philosophy,
+enjoyed reading and writing on, among other things, Aesthetics, Ethics,
+Wittgenstein and Nietzsche. In my MA at the Munich Center for Mathematical Philosophy,
 I focused on modal and non-classical logic(s) as well as social choice
 and behavioral judgement aggregation.
 
 In my PhD, I am working on Formal Social Epistemology and the Philosophy of AI.
 
-Fundamentally, I am interested in having the right beliefs and the best credences. My research investigates the impact of social institutions like prediction markets, and technological artifacts like advanced AI systems, on the beliefs and credences I should have; and how these systems could be modified to better support the formation of correct beliefs and good credences. 
+Fundamentally, I am interested in having the right beliefs and the best credences. My research investigates the impact of social institutions like prediction markets, and technological artifacts like advanced AI systems, on the beliefs and credences I should have; and how these systems could be modified to better support the formation of correct beliefs and good credences.
 
